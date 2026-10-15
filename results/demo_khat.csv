@@ -1,0 +1,1101 @@
+rep,seed,condition,k_true,method,status,k_hat
+0,1000,"5 blobs, a=0.1",5,Silhouette,RANGE,5
+0,1000,"5 blobs, a=0.1",5,Calinski-Harabasz,RANGE,5
+0,1000,"5 blobs, a=0.1",5,Gap statistic,RANGE,5
+0,1000,"5 blobs, a=0.1",5,BIC (spherical GMM),RANGE,5
+0,1000,"5 blobs, a=0.1",5,"DP-means, lambda=16",SUBST-D,1
+0,1000,"5 blobs, a=0.1",5,"Mean shift, h=1.5",SUBST-D,1
+0,1000,"5 blobs, a=0.1",5,"DBSCAN, eps=0.8",SUBST-D,1
+0,1000,"5 blobs, a=0.1",5,"G-means, alpha=0.05",SUBST-C,5
+0,1000,"5 blobs, a=0.1",5,"G-means, alpha=1e-4",SUBST-C,5
+0,1000,"5 blobs, a=0.1",5,"HDBSCAN, mcs=10",SUBST-R,5
+0,1000,"5 blobs, a=0.1",5,"HDBSCAN, mcs=100",SUBST-R,3
+0,1000,"5 blobs, a=1",5,Silhouette,RANGE,5
+0,1000,"5 blobs, a=1",5,Calinski-Harabasz,RANGE,5
+0,1000,"5 blobs, a=1",5,Gap statistic,RANGE,5
+0,1000,"5 blobs, a=1",5,BIC (spherical GMM),RANGE,5
+0,1000,"5 blobs, a=1",5,"DP-means, lambda=16",SUBST-D,9
+0,1000,"5 blobs, a=1",5,"Mean shift, h=1.5",SUBST-D,6
+0,1000,"5 blobs, a=1",5,"DBSCAN, eps=0.8",SUBST-D,5
+0,1000,"5 blobs, a=1",5,"G-means, alpha=0.05",SUBST-C,5
+0,1000,"5 blobs, a=1",5,"G-means, alpha=1e-4",SUBST-C,5
+0,1000,"5 blobs, a=1",5,"HDBSCAN, mcs=10",SUBST-R,5
+0,1000,"5 blobs, a=1",5,"HDBSCAN, mcs=100",SUBST-R,3
+0,1000,"5 blobs, a=10",5,Silhouette,RANGE,5
+0,1000,"5 blobs, a=10",5,Calinski-Harabasz,RANGE,5
+0,1000,"5 blobs, a=10",5,Gap statistic,RANGE,5
+0,1000,"5 blobs, a=10",5,BIC (spherical GMM),RANGE,5
+0,1000,"5 blobs, a=10",5,"DP-means, lambda=16",SUBST-D,196
+0,1000,"5 blobs, a=10",5,"Mean shift, h=1.5",SUBST-D,341
+0,1000,"5 blobs, a=10",5,"DBSCAN, eps=0.8",SUBST-D,0
+0,1000,"5 blobs, a=10",5,"G-means, alpha=0.05",SUBST-C,5
+0,1000,"5 blobs, a=10",5,"G-means, alpha=1e-4",SUBST-C,5
+0,1000,"5 blobs, a=10",5,"HDBSCAN, mcs=10",SUBST-R,5
+0,1000,"5 blobs, a=10",5,"HDBSCAN, mcs=100",SUBST-R,3
+0,1000,uniform square (k=1),1,Silhouette,RANGE,4
+0,1000,uniform square (k=1),1,Calinski-Harabasz,RANGE,9
+0,1000,uniform square (k=1),1,Gap statistic,RANGE,1
+0,1000,uniform square (k=1),1,BIC (spherical GMM),RANGE,4
+0,1000,uniform square (k=1),1,"DP-means, lambda=16",SUBST-D,7
+0,1000,uniform square (k=1),1,"Mean shift, h=1.5",SUBST-D,16
+0,1000,uniform square (k=1),1,"DBSCAN, eps=0.8",SUBST-D,4
+0,1000,uniform square (k=1),1,"G-means, alpha=0.05",SUBST-C,29
+0,1000,uniform square (k=1),1,"G-means, alpha=1e-4",SUBST-C,6
+0,1000,uniform square (k=1),1,"HDBSCAN, mcs=10",SUBST-R,4
+0,1000,uniform square (k=1),1,"HDBSCAN, mcs=100",SUBST-R,0
+0,1000,"12 blobs, k_max=10",12,Silhouette,RANGE,10
+0,1000,"12 blobs, k_max=10",12,Calinski-Harabasz,RANGE,10
+0,1000,"12 blobs, k_max=10",12,Gap statistic,RANGE,6
+0,1000,"12 blobs, k_max=10",12,BIC (spherical GMM),RANGE,10
+0,1000,"12 blobs, k_max=10",12,"DP-means, lambda=16",SUBST-D,17
+0,1000,"12 blobs, k_max=10",12,"Mean shift, h=1.5",SUBST-D,15
+0,1000,"12 blobs, k_max=10",12,"DBSCAN, eps=0.8",SUBST-D,12
+0,1000,"12 blobs, k_max=10",12,"G-means, alpha=0.05",SUBST-C,19
+0,1000,"12 blobs, k_max=10",12,"G-means, alpha=1e-4",SUBST-C,15
+0,1000,"12 blobs, k_max=10",12,"HDBSCAN, mcs=10",SUBST-R,12
+0,1000,"12 blobs, k_max=10",12,"HDBSCAN, mcs=100",SUBST-R,0
+1,1001,"5 blobs, a=0.1",5,Silhouette,RANGE,5
+1,1001,"5 blobs, a=0.1",5,Calinski-Harabasz,RANGE,5
+1,1001,"5 blobs, a=0.1",5,Gap statistic,RANGE,5
+1,1001,"5 blobs, a=0.1",5,BIC (spherical GMM),RANGE,5
+1,1001,"5 blobs, a=0.1",5,"DP-means, lambda=16",SUBST-D,1
+1,1001,"5 blobs, a=0.1",5,"Mean shift, h=1.5",SUBST-D,1
+1,1001,"5 blobs, a=0.1",5,"DBSCAN, eps=0.8",SUBST-D,1
+1,1001,"5 blobs, a=0.1",5,"G-means, alpha=0.05",SUBST-C,5
+1,1001,"5 blobs, a=0.1",5,"G-means, alpha=1e-4",SUBST-C,5
+1,1001,"5 blobs, a=0.1",5,"HDBSCAN, mcs=10",SUBST-R,5
+1,1001,"5 blobs, a=0.1",5,"HDBSCAN, mcs=100",SUBST-R,2
+1,1001,"5 blobs, a=1",5,Silhouette,RANGE,5
+1,1001,"5 blobs, a=1",5,Calinski-Harabasz,RANGE,5
+1,1001,"5 blobs, a=1",5,Gap statistic,RANGE,5
+1,1001,"5 blobs, a=1",5,BIC (spherical GMM),RANGE,5
+1,1001,"5 blobs, a=1",5,"DP-means, lambda=16",SUBST-D,6
+1,1001,"5 blobs, a=1",5,"Mean shift, h=1.5",SUBST-D,6
+1,1001,"5 blobs, a=1",5,"DBSCAN, eps=0.8",SUBST-D,5
+1,1001,"5 blobs, a=1",5,"G-means, alpha=0.05",SUBST-C,5
+1,1001,"5 blobs, a=1",5,"G-means, alpha=1e-4",SUBST-C,5
+1,1001,"5 blobs, a=1",5,"HDBSCAN, mcs=10",SUBST-R,5
+1,1001,"5 blobs, a=1",5,"HDBSCAN, mcs=100",SUBST-R,2
+1,1001,"5 blobs, a=10",5,Silhouette,RANGE,5
+1,1001,"5 blobs, a=10",5,Calinski-Harabasz,RANGE,5
+1,1001,"5 blobs, a=10",5,Gap statistic,RANGE,5
+1,1001,"5 blobs, a=10",5,BIC (spherical GMM),RANGE,5
+1,1001,"5 blobs, a=10",5,"DP-means, lambda=16",SUBST-D,194
+1,1001,"5 blobs, a=10",5,"Mean shift, h=1.5",SUBST-D,361
+1,1001,"5 blobs, a=10",5,"DBSCAN, eps=0.8",SUBST-D,0
+1,1001,"5 blobs, a=10",5,"G-means, alpha=0.05",SUBST-C,5
+1,1001,"5 blobs, a=10",5,"G-means, alpha=1e-4",SUBST-C,5
+1,1001,"5 blobs, a=10",5,"HDBSCAN, mcs=10",SUBST-R,5
+1,1001,"5 blobs, a=10",5,"HDBSCAN, mcs=100",SUBST-R,2
+1,1001,uniform square (k=1),1,Silhouette,RANGE,4
+1,1001,uniform square (k=1),1,Calinski-Harabasz,RANGE,9
+1,1001,uniform square (k=1),1,Gap statistic,RANGE,1
+1,1001,uniform square (k=1),1,BIC (spherical GMM),RANGE,4
+1,1001,uniform square (k=1),1,"DP-means, lambda=16",SUBST-D,6
+1,1001,uniform square (k=1),1,"Mean shift, h=1.5",SUBST-D,12
+1,1001,uniform square (k=1),1,"DBSCAN, eps=0.8",SUBST-D,3
+1,1001,uniform square (k=1),1,"G-means, alpha=0.05",SUBST-C,29
+1,1001,uniform square (k=1),1,"G-means, alpha=1e-4",SUBST-C,5
+1,1001,uniform square (k=1),1,"HDBSCAN, mcs=10",SUBST-R,2
+1,1001,uniform square (k=1),1,"HDBSCAN, mcs=100",SUBST-R,0
+1,1001,"12 blobs, k_max=10",12,Silhouette,RANGE,10
+1,1001,"12 blobs, k_max=10",12,Calinski-Harabasz,RANGE,10
+1,1001,"12 blobs, k_max=10",12,Gap statistic,RANGE,10
+1,1001,"12 blobs, k_max=10",12,BIC (spherical GMM),RANGE,10
+1,1001,"12 blobs, k_max=10",12,"DP-means, lambda=16",SUBST-D,17
+1,1001,"12 blobs, k_max=10",12,"Mean shift, h=1.5",SUBST-D,17
+1,1001,"12 blobs, k_max=10",12,"DBSCAN, eps=0.8",SUBST-D,15
+1,1001,"12 blobs, k_max=10",12,"G-means, alpha=0.05",SUBST-C,18
+1,1001,"12 blobs, k_max=10",12,"G-means, alpha=1e-4",SUBST-C,13
+1,1001,"12 blobs, k_max=10",12,"HDBSCAN, mcs=10",SUBST-R,12
+1,1001,"12 blobs, k_max=10",12,"HDBSCAN, mcs=100",SUBST-R,0
+2,1002,"5 blobs, a=0.1",5,Silhouette,RANGE,5
+2,1002,"5 blobs, a=0.1",5,Calinski-Harabasz,RANGE,5
+2,1002,"5 blobs, a=0.1",5,Gap statistic,RANGE,5
+2,1002,"5 blobs, a=0.1",5,BIC (spherical GMM),RANGE,5
+2,1002,"5 blobs, a=0.1",5,"DP-means, lambda=16",SUBST-D,1
+2,1002,"5 blobs, a=0.1",5,"Mean shift, h=1.5",SUBST-D,1
+2,1002,"5 blobs, a=0.1",5,"DBSCAN, eps=0.8",SUBST-D,1
+2,1002,"5 blobs, a=0.1",5,"G-means, alpha=0.05",SUBST-C,6
+2,1002,"5 blobs, a=0.1",5,"G-means, alpha=1e-4",SUBST-C,5
+2,1002,"5 blobs, a=0.1",5,"HDBSCAN, mcs=10",SUBST-R,5
+2,1002,"5 blobs, a=0.1",5,"HDBSCAN, mcs=100",SUBST-R,2
+2,1002,"5 blobs, a=1",5,Silhouette,RANGE,5
+2,1002,"5 blobs, a=1",5,Calinski-Harabasz,RANGE,5
+2,1002,"5 blobs, a=1",5,Gap statistic,RANGE,5
+2,1002,"5 blobs, a=1",5,BIC (spherical GMM),RANGE,5
+2,1002,"5 blobs, a=1",5,"DP-means, lambda=16",SUBST-D,7
+2,1002,"5 blobs, a=1",5,"Mean shift, h=1.5",SUBST-D,7
+2,1002,"5 blobs, a=1",5,"DBSCAN, eps=0.8",SUBST-D,6
+2,1002,"5 blobs, a=1",5,"G-means, alpha=0.05",SUBST-C,6
+2,1002,"5 blobs, a=1",5,"G-means, alpha=1e-4",SUBST-C,5
+2,1002,"5 blobs, a=1",5,"HDBSCAN, mcs=10",SUBST-R,5
+2,1002,"5 blobs, a=1",5,"HDBSCAN, mcs=100",SUBST-R,2
+2,1002,"5 blobs, a=10",5,Silhouette,RANGE,5
+2,1002,"5 blobs, a=10",5,Calinski-Harabasz,RANGE,5
+2,1002,"5 blobs, a=10",5,Gap statistic,RANGE,5
+2,1002,"5 blobs, a=10",5,BIC (spherical GMM),RANGE,5
+2,1002,"5 blobs, a=10",5,"DP-means, lambda=16",SUBST-D,195
+2,1002,"5 blobs, a=10",5,"Mean shift, h=1.5",SUBST-D,358
+2,1002,"5 blobs, a=10",5,"DBSCAN, eps=0.8",SUBST-D,0
+2,1002,"5 blobs, a=10",5,"G-means, alpha=0.05",SUBST-C,6
+2,1002,"5 blobs, a=10",5,"G-means, alpha=1e-4",SUBST-C,5
+2,1002,"5 blobs, a=10",5,"HDBSCAN, mcs=10",SUBST-R,5
+2,1002,"5 blobs, a=10",5,"HDBSCAN, mcs=100",SUBST-R,2
+2,1002,uniform square (k=1),1,Silhouette,RANGE,4
+2,1002,uniform square (k=1),1,Calinski-Harabasz,RANGE,9
+2,1002,uniform square (k=1),1,Gap statistic,RANGE,1
+2,1002,uniform square (k=1),1,BIC (spherical GMM),RANGE,4
+2,1002,uniform square (k=1),1,"DP-means, lambda=16",SUBST-D,7
+2,1002,uniform square (k=1),1,"Mean shift, h=1.5",SUBST-D,15
+2,1002,uniform square (k=1),1,"DBSCAN, eps=0.8",SUBST-D,4
+2,1002,uniform square (k=1),1,"G-means, alpha=0.05",SUBST-C,24
+2,1002,uniform square (k=1),1,"G-means, alpha=1e-4",SUBST-C,5
+2,1002,uniform square (k=1),1,"HDBSCAN, mcs=10",SUBST-R,5
+2,1002,uniform square (k=1),1,"HDBSCAN, mcs=100",SUBST-R,0
+2,1002,"12 blobs, k_max=10",12,Silhouette,RANGE,10
+2,1002,"12 blobs, k_max=10",12,Calinski-Harabasz,RANGE,10
+2,1002,"12 blobs, k_max=10",12,Gap statistic,RANGE,6
+2,1002,"12 blobs, k_max=10",12,BIC (spherical GMM),RANGE,10
+2,1002,"12 blobs, k_max=10",12,"DP-means, lambda=16",SUBST-D,16
+2,1002,"12 blobs, k_max=10",12,"Mean shift, h=1.5",SUBST-D,17
+2,1002,"12 blobs, k_max=10",12,"DBSCAN, eps=0.8",SUBST-D,13
+2,1002,"12 blobs, k_max=10",12,"G-means, alpha=0.05",SUBST-C,12
+2,1002,"12 blobs, k_max=10",12,"G-means, alpha=1e-4",SUBST-C,12
+2,1002,"12 blobs, k_max=10",12,"HDBSCAN, mcs=10",SUBST-R,12
+2,1002,"12 blobs, k_max=10",12,"HDBSCAN, mcs=100",SUBST-R,0
+3,1003,"5 blobs, a=0.1",5,Silhouette,RANGE,5
+3,1003,"5 blobs, a=0.1",5,Calinski-Harabasz,RANGE,5
+3,1003,"5 blobs, a=0.1",5,Gap statistic,RANGE,5
+3,1003,"5 blobs, a=0.1",5,BIC (spherical GMM),RANGE,5
+3,1003,"5 blobs, a=0.1",5,"DP-means, lambda=16",SUBST-D,1
+3,1003,"5 blobs, a=0.1",5,"Mean shift, h=1.5",SUBST-D,1
+3,1003,"5 blobs, a=0.1",5,"DBSCAN, eps=0.8",SUBST-D,1
+3,1003,"5 blobs, a=0.1",5,"G-means, alpha=0.05",SUBST-C,5
+3,1003,"5 blobs, a=0.1",5,"G-means, alpha=1e-4",SUBST-C,5
+3,1003,"5 blobs, a=0.1",5,"HDBSCAN, mcs=10",SUBST-R,5
+3,1003,"5 blobs, a=0.1",5,"HDBSCAN, mcs=100",SUBST-R,2
+3,1003,"5 blobs, a=1",5,Silhouette,RANGE,5
+3,1003,"5 blobs, a=1",5,Calinski-Harabasz,RANGE,5
+3,1003,"5 blobs, a=1",5,Gap statistic,RANGE,5
+3,1003,"5 blobs, a=1",5,BIC (spherical GMM),RANGE,5
+3,1003,"5 blobs, a=1",5,"DP-means, lambda=16",SUBST-D,6
+3,1003,"5 blobs, a=1",5,"Mean shift, h=1.5",SUBST-D,5
+3,1003,"5 blobs, a=1",5,"DBSCAN, eps=0.8",SUBST-D,5
+3,1003,"5 blobs, a=1",5,"G-means, alpha=0.05",SUBST-C,5
+3,1003,"5 blobs, a=1",5,"G-means, alpha=1e-4",SUBST-C,5
+3,1003,"5 blobs, a=1",5,"HDBSCAN, mcs=10",SUBST-R,5
+3,1003,"5 blobs, a=1",5,"HDBSCAN, mcs=100",SUBST-R,2
+3,1003,"5 blobs, a=10",5,Silhouette,RANGE,5
+3,1003,"5 blobs, a=10",5,Calinski-Harabasz,RANGE,5
+3,1003,"5 blobs, a=10",5,Gap statistic,RANGE,5
+3,1003,"5 blobs, a=10",5,BIC (spherical GMM),RANGE,5
+3,1003,"5 blobs, a=10",5,"DP-means, lambda=16",SUBST-D,192
+3,1003,"5 blobs, a=10",5,"Mean shift, h=1.5",SUBST-D,353
+3,1003,"5 blobs, a=10",5,"DBSCAN, eps=0.8",SUBST-D,0
+3,1003,"5 blobs, a=10",5,"G-means, alpha=0.05",SUBST-C,5
+3,1003,"5 blobs, a=10",5,"G-means, alpha=1e-4",SUBST-C,5
+3,1003,"5 blobs, a=10",5,"HDBSCAN, mcs=10",SUBST-R,5
+3,1003,"5 blobs, a=10",5,"HDBSCAN, mcs=100",SUBST-R,2
+3,1003,uniform square (k=1),1,Silhouette,RANGE,4
+3,1003,uniform square (k=1),1,Calinski-Harabasz,RANGE,4
+3,1003,uniform square (k=1),1,Gap statistic,RANGE,1
+3,1003,uniform square (k=1),1,BIC (spherical GMM),RANGE,4
+3,1003,uniform square (k=1),1,"DP-means, lambda=16",SUBST-D,6
+3,1003,uniform square (k=1),1,"Mean shift, h=1.5",SUBST-D,13
+3,1003,uniform square (k=1),1,"DBSCAN, eps=0.8",SUBST-D,3
+3,1003,uniform square (k=1),1,"G-means, alpha=0.05",SUBST-C,11
+3,1003,uniform square (k=1),1,"G-means, alpha=1e-4",SUBST-C,5
+3,1003,uniform square (k=1),1,"HDBSCAN, mcs=10",SUBST-R,8
+3,1003,uniform square (k=1),1,"HDBSCAN, mcs=100",SUBST-R,0
+3,1003,"12 blobs, k_max=10",12,Silhouette,RANGE,10
+3,1003,"12 blobs, k_max=10",12,Calinski-Harabasz,RANGE,10
+3,1003,"12 blobs, k_max=10",12,Gap statistic,RANGE,6
+3,1003,"12 blobs, k_max=10",12,BIC (spherical GMM),RANGE,10
+3,1003,"12 blobs, k_max=10",12,"DP-means, lambda=16",SUBST-D,16
+3,1003,"12 blobs, k_max=10",12,"Mean shift, h=1.5",SUBST-D,14
+3,1003,"12 blobs, k_max=10",12,"DBSCAN, eps=0.8",SUBST-D,12
+3,1003,"12 blobs, k_max=10",12,"G-means, alpha=0.05",SUBST-C,13
+3,1003,"12 blobs, k_max=10",12,"G-means, alpha=1e-4",SUBST-C,13
+3,1003,"12 blobs, k_max=10",12,"HDBSCAN, mcs=10",SUBST-R,12
+3,1003,"12 blobs, k_max=10",12,"HDBSCAN, mcs=100",SUBST-R,0
+4,1004,"5 blobs, a=0.1",5,Silhouette,RANGE,5
+4,1004,"5 blobs, a=0.1",5,Calinski-Harabasz,RANGE,5
+4,1004,"5 blobs, a=0.1",5,Gap statistic,RANGE,5
+4,1004,"5 blobs, a=0.1",5,BIC (spherical GMM),RANGE,5
+4,1004,"5 blobs, a=0.1",5,"DP-means, lambda=16",SUBST-D,1
+4,1004,"5 blobs, a=0.1",5,"Mean shift, h=1.5",SUBST-D,1
+4,1004,"5 blobs, a=0.1",5,"DBSCAN, eps=0.8",SUBST-D,1
+4,1004,"5 blobs, a=0.1",5,"G-means, alpha=0.05",SUBST-C,5
+4,1004,"5 blobs, a=0.1",5,"G-means, alpha=1e-4",SUBST-C,5
+4,1004,"5 blobs, a=0.1",5,"HDBSCAN, mcs=10",SUBST-R,5
+4,1004,"5 blobs, a=0.1",5,"HDBSCAN, mcs=100",SUBST-R,2
+4,1004,"5 blobs, a=1",5,Silhouette,RANGE,5
+4,1004,"5 blobs, a=1",5,Calinski-Harabasz,RANGE,5
+4,1004,"5 blobs, a=1",5,Gap statistic,RANGE,5
+4,1004,"5 blobs, a=1",5,BIC (spherical GMM),RANGE,5
+4,1004,"5 blobs, a=1",5,"DP-means, lambda=16",SUBST-D,8
+4,1004,"5 blobs, a=1",5,"Mean shift, h=1.5",SUBST-D,7
+4,1004,"5 blobs, a=1",5,"DBSCAN, eps=0.8",SUBST-D,5
+4,1004,"5 blobs, a=1",5,"G-means, alpha=0.05",SUBST-C,5
+4,1004,"5 blobs, a=1",5,"G-means, alpha=1e-4",SUBST-C,5
+4,1004,"5 blobs, a=1",5,"HDBSCAN, mcs=10",SUBST-R,5
+4,1004,"5 blobs, a=1",5,"HDBSCAN, mcs=100",SUBST-R,2
+4,1004,"5 blobs, a=10",5,Silhouette,RANGE,5
+4,1004,"5 blobs, a=10",5,Calinski-Harabasz,RANGE,5
+4,1004,"5 blobs, a=10",5,Gap statistic,RANGE,5
+4,1004,"5 blobs, a=10",5,BIC (spherical GMM),RANGE,5
+4,1004,"5 blobs, a=10",5,"DP-means, lambda=16",SUBST-D,208
+4,1004,"5 blobs, a=10",5,"Mean shift, h=1.5",SUBST-D,357
+4,1004,"5 blobs, a=10",5,"DBSCAN, eps=0.8",SUBST-D,0
+4,1004,"5 blobs, a=10",5,"G-means, alpha=0.05",SUBST-C,5
+4,1004,"5 blobs, a=10",5,"G-means, alpha=1e-4",SUBST-C,5
+4,1004,"5 blobs, a=10",5,"HDBSCAN, mcs=10",SUBST-R,5
+4,1004,"5 blobs, a=10",5,"HDBSCAN, mcs=100",SUBST-R,2
+4,1004,uniform square (k=1),1,Silhouette,RANGE,9
+4,1004,uniform square (k=1),1,Calinski-Harabasz,RANGE,10
+4,1004,uniform square (k=1),1,Gap statistic,RANGE,1
+4,1004,uniform square (k=1),1,BIC (spherical GMM),RANGE,6
+4,1004,uniform square (k=1),1,"DP-means, lambda=16",SUBST-D,6
+4,1004,uniform square (k=1),1,"Mean shift, h=1.5",SUBST-D,14
+4,1004,uniform square (k=1),1,"DBSCAN, eps=0.8",SUBST-D,6
+4,1004,uniform square (k=1),1,"G-means, alpha=0.05",SUBST-C,21
+4,1004,uniform square (k=1),1,"G-means, alpha=1e-4",SUBST-C,6
+4,1004,uniform square (k=1),1,"HDBSCAN, mcs=10",SUBST-R,8
+4,1004,uniform square (k=1),1,"HDBSCAN, mcs=100",SUBST-R,0
+4,1004,"12 blobs, k_max=10",12,Silhouette,RANGE,10
+4,1004,"12 blobs, k_max=10",12,Calinski-Harabasz,RANGE,10
+4,1004,"12 blobs, k_max=10",12,Gap statistic,RANGE,10
+4,1004,"12 blobs, k_max=10",12,BIC (spherical GMM),RANGE,10
+4,1004,"12 blobs, k_max=10",12,"DP-means, lambda=16",SUBST-D,16
+4,1004,"12 blobs, k_max=10",12,"Mean shift, h=1.5",SUBST-D,18
+4,1004,"12 blobs, k_max=10",12,"DBSCAN, eps=0.8",SUBST-D,12
+4,1004,"12 blobs, k_max=10",12,"G-means, alpha=0.05",SUBST-C,14
+4,1004,"12 blobs, k_max=10",12,"G-means, alpha=1e-4",SUBST-C,14
+4,1004,"12 blobs, k_max=10",12,"HDBSCAN, mcs=10",SUBST-R,12
+4,1004,"12 blobs, k_max=10",12,"HDBSCAN, mcs=100",SUBST-R,0
+5,1005,"5 blobs, a=0.1",5,Silhouette,RANGE,5
+5,1005,"5 blobs, a=0.1",5,Calinski-Harabasz,RANGE,5
+5,1005,"5 blobs, a=0.1",5,Gap statistic,RANGE,5
+5,1005,"5 blobs, a=0.1",5,BIC (spherical GMM),RANGE,5
+5,1005,"5 blobs, a=0.1",5,"DP-means, lambda=16",SUBST-D,1
+5,1005,"5 blobs, a=0.1",5,"Mean shift, h=1.5",SUBST-D,1
+5,1005,"5 blobs, a=0.1",5,"DBSCAN, eps=0.8",SUBST-D,1
+5,1005,"5 blobs, a=0.1",5,"G-means, alpha=0.05",SUBST-C,5
+5,1005,"5 blobs, a=0.1",5,"G-means, alpha=1e-4",SUBST-C,5
+5,1005,"5 blobs, a=0.1",5,"HDBSCAN, mcs=10",SUBST-R,5
+5,1005,"5 blobs, a=0.1",5,"HDBSCAN, mcs=100",SUBST-R,2
+5,1005,"5 blobs, a=1",5,Silhouette,RANGE,5
+5,1005,"5 blobs, a=1",5,Calinski-Harabasz,RANGE,5
+5,1005,"5 blobs, a=1",5,Gap statistic,RANGE,5
+5,1005,"5 blobs, a=1",5,BIC (spherical GMM),RANGE,5
+5,1005,"5 blobs, a=1",5,"DP-means, lambda=16",SUBST-D,7
+5,1005,"5 blobs, a=1",5,"Mean shift, h=1.5",SUBST-D,7
+5,1005,"5 blobs, a=1",5,"DBSCAN, eps=0.8",SUBST-D,5
+5,1005,"5 blobs, a=1",5,"G-means, alpha=0.05",SUBST-C,5
+5,1005,"5 blobs, a=1",5,"G-means, alpha=1e-4",SUBST-C,5
+5,1005,"5 blobs, a=1",5,"HDBSCAN, mcs=10",SUBST-R,5
+5,1005,"5 blobs, a=1",5,"HDBSCAN, mcs=100",SUBST-R,2
+5,1005,"5 blobs, a=10",5,Silhouette,RANGE,5
+5,1005,"5 blobs, a=10",5,Calinski-Harabasz,RANGE,5
+5,1005,"5 blobs, a=10",5,Gap statistic,RANGE,5
+5,1005,"5 blobs, a=10",5,BIC (spherical GMM),RANGE,5
+5,1005,"5 blobs, a=10",5,"DP-means, lambda=16",SUBST-D,198
+5,1005,"5 blobs, a=10",5,"Mean shift, h=1.5",SUBST-D,352
+5,1005,"5 blobs, a=10",5,"DBSCAN, eps=0.8",SUBST-D,0
+5,1005,"5 blobs, a=10",5,"G-means, alpha=0.05",SUBST-C,5
+5,1005,"5 blobs, a=10",5,"G-means, alpha=1e-4",SUBST-C,5
+5,1005,"5 blobs, a=10",5,"HDBSCAN, mcs=10",SUBST-R,5
+5,1005,"5 blobs, a=10",5,"HDBSCAN, mcs=100",SUBST-R,2
+5,1005,uniform square (k=1),1,Silhouette,RANGE,4
+5,1005,uniform square (k=1),1,Calinski-Harabasz,RANGE,10
+5,1005,uniform square (k=1),1,Gap statistic,RANGE,1
+5,1005,uniform square (k=1),1,BIC (spherical GMM),RANGE,5
+5,1005,uniform square (k=1),1,"DP-means, lambda=16",SUBST-D,8
+5,1005,uniform square (k=1),1,"Mean shift, h=1.5",SUBST-D,15
+5,1005,uniform square (k=1),1,"DBSCAN, eps=0.8",SUBST-D,6
+5,1005,uniform square (k=1),1,"G-means, alpha=0.05",SUBST-C,14
+5,1005,uniform square (k=1),1,"G-means, alpha=1e-4",SUBST-C,7
+5,1005,uniform square (k=1),1,"HDBSCAN, mcs=10",SUBST-R,6
+5,1005,uniform square (k=1),1,"HDBSCAN, mcs=100",SUBST-R,0
+5,1005,"12 blobs, k_max=10",12,Silhouette,RANGE,10
+5,1005,"12 blobs, k_max=10",12,Calinski-Harabasz,RANGE,10
+5,1005,"12 blobs, k_max=10",12,Gap statistic,RANGE,10
+5,1005,"12 blobs, k_max=10",12,BIC (spherical GMM),RANGE,10
+5,1005,"12 blobs, k_max=10",12,"DP-means, lambda=16",SUBST-D,14
+5,1005,"12 blobs, k_max=10",12,"Mean shift, h=1.5",SUBST-D,17
+5,1005,"12 blobs, k_max=10",12,"DBSCAN, eps=0.8",SUBST-D,13
+5,1005,"12 blobs, k_max=10",12,"G-means, alpha=0.05",SUBST-C,16
+5,1005,"12 blobs, k_max=10",12,"G-means, alpha=1e-4",SUBST-C,13
+5,1005,"12 blobs, k_max=10",12,"HDBSCAN, mcs=10",SUBST-R,12
+5,1005,"12 blobs, k_max=10",12,"HDBSCAN, mcs=100",SUBST-R,0
+6,1006,"5 blobs, a=0.1",5,Silhouette,RANGE,5
+6,1006,"5 blobs, a=0.1",5,Calinski-Harabasz,RANGE,5
+6,1006,"5 blobs, a=0.1",5,Gap statistic,RANGE,5
+6,1006,"5 blobs, a=0.1",5,BIC (spherical GMM),RANGE,5
+6,1006,"5 blobs, a=0.1",5,"DP-means, lambda=16",SUBST-D,1
+6,1006,"5 blobs, a=0.1",5,"Mean shift, h=1.5",SUBST-D,1
+6,1006,"5 blobs, a=0.1",5,"DBSCAN, eps=0.8",SUBST-D,1
+6,1006,"5 blobs, a=0.1",5,"G-means, alpha=0.05",SUBST-C,5
+6,1006,"5 blobs, a=0.1",5,"G-means, alpha=1e-4",SUBST-C,5
+6,1006,"5 blobs, a=0.1",5,"HDBSCAN, mcs=10",SUBST-R,5
+6,1006,"5 blobs, a=0.1",5,"HDBSCAN, mcs=100",SUBST-R,3
+6,1006,"5 blobs, a=1",5,Silhouette,RANGE,5
+6,1006,"5 blobs, a=1",5,Calinski-Harabasz,RANGE,5
+6,1006,"5 blobs, a=1",5,Gap statistic,RANGE,5
+6,1006,"5 blobs, a=1",5,BIC (spherical GMM),RANGE,5
+6,1006,"5 blobs, a=1",5,"DP-means, lambda=16",SUBST-D,7
+6,1006,"5 blobs, a=1",5,"Mean shift, h=1.5",SUBST-D,6
+6,1006,"5 blobs, a=1",5,"DBSCAN, eps=0.8",SUBST-D,5
+6,1006,"5 blobs, a=1",5,"G-means, alpha=0.05",SUBST-C,5
+6,1006,"5 blobs, a=1",5,"G-means, alpha=1e-4",SUBST-C,5
+6,1006,"5 blobs, a=1",5,"HDBSCAN, mcs=10",SUBST-R,5
+6,1006,"5 blobs, a=1",5,"HDBSCAN, mcs=100",SUBST-R,3
+6,1006,"5 blobs, a=10",5,Silhouette,RANGE,5
+6,1006,"5 blobs, a=10",5,Calinski-Harabasz,RANGE,5
+6,1006,"5 blobs, a=10",5,Gap statistic,RANGE,5
+6,1006,"5 blobs, a=10",5,BIC (spherical GMM),RANGE,5
+6,1006,"5 blobs, a=10",5,"DP-means, lambda=16",SUBST-D,197
+6,1006,"5 blobs, a=10",5,"Mean shift, h=1.5",SUBST-D,360
+6,1006,"5 blobs, a=10",5,"DBSCAN, eps=0.8",SUBST-D,0
+6,1006,"5 blobs, a=10",5,"G-means, alpha=0.05",SUBST-C,5
+6,1006,"5 blobs, a=10",5,"G-means, alpha=1e-4",SUBST-C,5
+6,1006,"5 blobs, a=10",5,"HDBSCAN, mcs=10",SUBST-R,5
+6,1006,"5 blobs, a=10",5,"HDBSCAN, mcs=100",SUBST-R,3
+6,1006,uniform square (k=1),1,Silhouette,RANGE,6
+6,1006,uniform square (k=1),1,Calinski-Harabasz,RANGE,9
+6,1006,uniform square (k=1),1,Gap statistic,RANGE,1
+6,1006,uniform square (k=1),1,BIC (spherical GMM),RANGE,4
+6,1006,uniform square (k=1),1,"DP-means, lambda=16",SUBST-D,7
+6,1006,uniform square (k=1),1,"Mean shift, h=1.5",SUBST-D,13
+6,1006,uniform square (k=1),1,"DBSCAN, eps=0.8",SUBST-D,3
+6,1006,uniform square (k=1),1,"G-means, alpha=0.05",SUBST-C,16
+6,1006,uniform square (k=1),1,"G-means, alpha=1e-4",SUBST-C,7
+6,1006,uniform square (k=1),1,"HDBSCAN, mcs=10",SUBST-R,2
+6,1006,uniform square (k=1),1,"HDBSCAN, mcs=100",SUBST-R,0
+6,1006,"12 blobs, k_max=10",12,Silhouette,RANGE,10
+6,1006,"12 blobs, k_max=10",12,Calinski-Harabasz,RANGE,10
+6,1006,"12 blobs, k_max=10",12,Gap statistic,RANGE,10
+6,1006,"12 blobs, k_max=10",12,BIC (spherical GMM),RANGE,10
+6,1006,"12 blobs, k_max=10",12,"DP-means, lambda=16",SUBST-D,16
+6,1006,"12 blobs, k_max=10",12,"Mean shift, h=1.5",SUBST-D,14
+6,1006,"12 blobs, k_max=10",12,"DBSCAN, eps=0.8",SUBST-D,12
+6,1006,"12 blobs, k_max=10",12,"G-means, alpha=0.05",SUBST-C,17
+6,1006,"12 blobs, k_max=10",12,"G-means, alpha=1e-4",SUBST-C,12
+6,1006,"12 blobs, k_max=10",12,"HDBSCAN, mcs=10",SUBST-R,12
+6,1006,"12 blobs, k_max=10",12,"HDBSCAN, mcs=100",SUBST-R,0
+7,1007,"5 blobs, a=0.1",5,Silhouette,RANGE,5
+7,1007,"5 blobs, a=0.1",5,Calinski-Harabasz,RANGE,5
+7,1007,"5 blobs, a=0.1",5,Gap statistic,RANGE,5
+7,1007,"5 blobs, a=0.1",5,BIC (spherical GMM),RANGE,5
+7,1007,"5 blobs, a=0.1",5,"DP-means, lambda=16",SUBST-D,1
+7,1007,"5 blobs, a=0.1",5,"Mean shift, h=1.5",SUBST-D,1
+7,1007,"5 blobs, a=0.1",5,"DBSCAN, eps=0.8",SUBST-D,1
+7,1007,"5 blobs, a=0.1",5,"G-means, alpha=0.05",SUBST-C,7
+7,1007,"5 blobs, a=0.1",5,"G-means, alpha=1e-4",SUBST-C,5
+7,1007,"5 blobs, a=0.1",5,"HDBSCAN, mcs=10",SUBST-R,5
+7,1007,"5 blobs, a=0.1",5,"HDBSCAN, mcs=100",SUBST-R,4
+7,1007,"5 blobs, a=1",5,Silhouette,RANGE,5
+7,1007,"5 blobs, a=1",5,Calinski-Harabasz,RANGE,5
+7,1007,"5 blobs, a=1",5,Gap statistic,RANGE,5
+7,1007,"5 blobs, a=1",5,BIC (spherical GMM),RANGE,5
+7,1007,"5 blobs, a=1",5,"DP-means, lambda=16",SUBST-D,5
+7,1007,"5 blobs, a=1",5,"Mean shift, h=1.5",SUBST-D,6
+7,1007,"5 blobs, a=1",5,"DBSCAN, eps=0.8",SUBST-D,5
+7,1007,"5 blobs, a=1",5,"G-means, alpha=0.05",SUBST-C,7
+7,1007,"5 blobs, a=1",5,"G-means, alpha=1e-4",SUBST-C,5
+7,1007,"5 blobs, a=1",5,"HDBSCAN, mcs=10",SUBST-R,5
+7,1007,"5 blobs, a=1",5,"HDBSCAN, mcs=100",SUBST-R,4
+7,1007,"5 blobs, a=10",5,Silhouette,RANGE,5
+7,1007,"5 blobs, a=10",5,Calinski-Harabasz,RANGE,5
+7,1007,"5 blobs, a=10",5,Gap statistic,RANGE,5
+7,1007,"5 blobs, a=10",5,BIC (spherical GMM),RANGE,5
+7,1007,"5 blobs, a=10",5,"DP-means, lambda=16",SUBST-D,182
+7,1007,"5 blobs, a=10",5,"Mean shift, h=1.5",SUBST-D,349
+7,1007,"5 blobs, a=10",5,"DBSCAN, eps=0.8",SUBST-D,0
+7,1007,"5 blobs, a=10",5,"G-means, alpha=0.05",SUBST-C,7
+7,1007,"5 blobs, a=10",5,"G-means, alpha=1e-4",SUBST-C,5
+7,1007,"5 blobs, a=10",5,"HDBSCAN, mcs=10",SUBST-R,5
+7,1007,"5 blobs, a=10",5,"HDBSCAN, mcs=100",SUBST-R,4
+7,1007,uniform square (k=1),1,Silhouette,RANGE,4
+7,1007,uniform square (k=1),1,Calinski-Harabasz,RANGE,9
+7,1007,uniform square (k=1),1,Gap statistic,RANGE,1
+7,1007,uniform square (k=1),1,BIC (spherical GMM),RANGE,4
+7,1007,uniform square (k=1),1,"DP-means, lambda=16",SUBST-D,7
+7,1007,uniform square (k=1),1,"Mean shift, h=1.5",SUBST-D,15
+7,1007,uniform square (k=1),1,"DBSCAN, eps=0.8",SUBST-D,4
+7,1007,uniform square (k=1),1,"G-means, alpha=0.05",SUBST-C,20
+7,1007,uniform square (k=1),1,"G-means, alpha=1e-4",SUBST-C,7
+7,1007,uniform square (k=1),1,"HDBSCAN, mcs=10",SUBST-R,9
+7,1007,uniform square (k=1),1,"HDBSCAN, mcs=100",SUBST-R,0
+7,1007,"12 blobs, k_max=10",12,Silhouette,RANGE,10
+7,1007,"12 blobs, k_max=10",12,Calinski-Harabasz,RANGE,10
+7,1007,"12 blobs, k_max=10",12,Gap statistic,RANGE,10
+7,1007,"12 blobs, k_max=10",12,BIC (spherical GMM),RANGE,10
+7,1007,"12 blobs, k_max=10",12,"DP-means, lambda=16",SUBST-D,16
+7,1007,"12 blobs, k_max=10",12,"Mean shift, h=1.5",SUBST-D,14
+7,1007,"12 blobs, k_max=10",12,"DBSCAN, eps=0.8",SUBST-D,14
+7,1007,"12 blobs, k_max=10",12,"G-means, alpha=0.05",SUBST-C,12
+7,1007,"12 blobs, k_max=10",12,"G-means, alpha=1e-4",SUBST-C,12
+7,1007,"12 blobs, k_max=10",12,"HDBSCAN, mcs=10",SUBST-R,12
+7,1007,"12 blobs, k_max=10",12,"HDBSCAN, mcs=100",SUBST-R,0
+8,1008,"5 blobs, a=0.1",5,Silhouette,RANGE,5
+8,1008,"5 blobs, a=0.1",5,Calinski-Harabasz,RANGE,5
+8,1008,"5 blobs, a=0.1",5,Gap statistic,RANGE,5
+8,1008,"5 blobs, a=0.1",5,BIC (spherical GMM),RANGE,5
+8,1008,"5 blobs, a=0.1",5,"DP-means, lambda=16",SUBST-D,1
+8,1008,"5 blobs, a=0.1",5,"Mean shift, h=1.5",SUBST-D,1
+8,1008,"5 blobs, a=0.1",5,"DBSCAN, eps=0.8",SUBST-D,1
+8,1008,"5 blobs, a=0.1",5,"G-means, alpha=0.05",SUBST-C,5
+8,1008,"5 blobs, a=0.1",5,"G-means, alpha=1e-4",SUBST-C,5
+8,1008,"5 blobs, a=0.1",5,"HDBSCAN, mcs=10",SUBST-R,5
+8,1008,"5 blobs, a=0.1",5,"HDBSCAN, mcs=100",SUBST-R,2
+8,1008,"5 blobs, a=1",5,Silhouette,RANGE,5
+8,1008,"5 blobs, a=1",5,Calinski-Harabasz,RANGE,5
+8,1008,"5 blobs, a=1",5,Gap statistic,RANGE,5
+8,1008,"5 blobs, a=1",5,BIC (spherical GMM),RANGE,5
+8,1008,"5 blobs, a=1",5,"DP-means, lambda=16",SUBST-D,8
+8,1008,"5 blobs, a=1",5,"Mean shift, h=1.5",SUBST-D,5
+8,1008,"5 blobs, a=1",5,"DBSCAN, eps=0.8",SUBST-D,5
+8,1008,"5 blobs, a=1",5,"G-means, alpha=0.05",SUBST-C,5
+8,1008,"5 blobs, a=1",5,"G-means, alpha=1e-4",SUBST-C,5
+8,1008,"5 blobs, a=1",5,"HDBSCAN, mcs=10",SUBST-R,5
+8,1008,"5 blobs, a=1",5,"HDBSCAN, mcs=100",SUBST-R,2
+8,1008,"5 blobs, a=10",5,Silhouette,RANGE,5
+8,1008,"5 blobs, a=10",5,Calinski-Harabasz,RANGE,5
+8,1008,"5 blobs, a=10",5,Gap statistic,RANGE,5
+8,1008,"5 blobs, a=10",5,BIC (spherical GMM),RANGE,5
+8,1008,"5 blobs, a=10",5,"DP-means, lambda=16",SUBST-D,206
+8,1008,"5 blobs, a=10",5,"Mean shift, h=1.5",SUBST-D,355
+8,1008,"5 blobs, a=10",5,"DBSCAN, eps=0.8",SUBST-D,0
+8,1008,"5 blobs, a=10",5,"G-means, alpha=0.05",SUBST-C,5
+8,1008,"5 blobs, a=10",5,"G-means, alpha=1e-4",SUBST-C,5
+8,1008,"5 blobs, a=10",5,"HDBSCAN, mcs=10",SUBST-R,5
+8,1008,"5 blobs, a=10",5,"HDBSCAN, mcs=100",SUBST-R,2
+8,1008,uniform square (k=1),1,Silhouette,RANGE,4
+8,1008,uniform square (k=1),1,Calinski-Harabasz,RANGE,8
+8,1008,uniform square (k=1),1,Gap statistic,RANGE,1
+8,1008,uniform square (k=1),1,BIC (spherical GMM),RANGE,4
+8,1008,uniform square (k=1),1,"DP-means, lambda=16",SUBST-D,6
+8,1008,uniform square (k=1),1,"Mean shift, h=1.5",SUBST-D,14
+8,1008,uniform square (k=1),1,"DBSCAN, eps=0.8",SUBST-D,3
+8,1008,uniform square (k=1),1,"G-means, alpha=0.05",SUBST-C,29
+8,1008,uniform square (k=1),1,"G-means, alpha=1e-4",SUBST-C,4
+8,1008,uniform square (k=1),1,"HDBSCAN, mcs=10",SUBST-R,6
+8,1008,uniform square (k=1),1,"HDBSCAN, mcs=100",SUBST-R,0
+8,1008,"12 blobs, k_max=10",12,Silhouette,RANGE,10
+8,1008,"12 blobs, k_max=10",12,Calinski-Harabasz,RANGE,10
+8,1008,"12 blobs, k_max=10",12,Gap statistic,RANGE,10
+8,1008,"12 blobs, k_max=10",12,BIC (spherical GMM),RANGE,10
+8,1008,"12 blobs, k_max=10",12,"DP-means, lambda=16",SUBST-D,16
+8,1008,"12 blobs, k_max=10",12,"Mean shift, h=1.5",SUBST-D,15
+8,1008,"12 blobs, k_max=10",12,"DBSCAN, eps=0.8",SUBST-D,11
+8,1008,"12 blobs, k_max=10",12,"G-means, alpha=0.05",SUBST-C,15
+8,1008,"12 blobs, k_max=10",12,"G-means, alpha=1e-4",SUBST-C,14
+8,1008,"12 blobs, k_max=10",12,"HDBSCAN, mcs=10",SUBST-R,12
+8,1008,"12 blobs, k_max=10",12,"HDBSCAN, mcs=100",SUBST-R,0
+9,1009,"5 blobs, a=0.1",5,Silhouette,RANGE,5
+9,1009,"5 blobs, a=0.1",5,Calinski-Harabasz,RANGE,5
+9,1009,"5 blobs, a=0.1",5,Gap statistic,RANGE,5
+9,1009,"5 blobs, a=0.1",5,BIC (spherical GMM),RANGE,5
+9,1009,"5 blobs, a=0.1",5,"DP-means, lambda=16",SUBST-D,1
+9,1009,"5 blobs, a=0.1",5,"Mean shift, h=1.5",SUBST-D,1
+9,1009,"5 blobs, a=0.1",5,"DBSCAN, eps=0.8",SUBST-D,1
+9,1009,"5 blobs, a=0.1",5,"G-means, alpha=0.05",SUBST-C,6
+9,1009,"5 blobs, a=0.1",5,"G-means, alpha=1e-4",SUBST-C,5
+9,1009,"5 blobs, a=0.1",5,"HDBSCAN, mcs=10",SUBST-R,5
+9,1009,"5 blobs, a=0.1",5,"HDBSCAN, mcs=100",SUBST-R,2
+9,1009,"5 blobs, a=1",5,Silhouette,RANGE,5
+9,1009,"5 blobs, a=1",5,Calinski-Harabasz,RANGE,5
+9,1009,"5 blobs, a=1",5,Gap statistic,RANGE,5
+9,1009,"5 blobs, a=1",5,BIC (spherical GMM),RANGE,5
+9,1009,"5 blobs, a=1",5,"DP-means, lambda=16",SUBST-D,8
+9,1009,"5 blobs, a=1",5,"Mean shift, h=1.5",SUBST-D,5
+9,1009,"5 blobs, a=1",5,"DBSCAN, eps=0.8",SUBST-D,5
+9,1009,"5 blobs, a=1",5,"G-means, alpha=0.05",SUBST-C,6
+9,1009,"5 blobs, a=1",5,"G-means, alpha=1e-4",SUBST-C,5
+9,1009,"5 blobs, a=1",5,"HDBSCAN, mcs=10",SUBST-R,5
+9,1009,"5 blobs, a=1",5,"HDBSCAN, mcs=100",SUBST-R,2
+9,1009,"5 blobs, a=10",5,Silhouette,RANGE,5
+9,1009,"5 blobs, a=10",5,Calinski-Harabasz,RANGE,5
+9,1009,"5 blobs, a=10",5,Gap statistic,RANGE,5
+9,1009,"5 blobs, a=10",5,BIC (spherical GMM),RANGE,5
+9,1009,"5 blobs, a=10",5,"DP-means, lambda=16",SUBST-D,190
+9,1009,"5 blobs, a=10",5,"Mean shift, h=1.5",SUBST-D,339
+9,1009,"5 blobs, a=10",5,"DBSCAN, eps=0.8",SUBST-D,0
+9,1009,"5 blobs, a=10",5,"G-means, alpha=0.05",SUBST-C,6
+9,1009,"5 blobs, a=10",5,"G-means, alpha=1e-4",SUBST-C,5
+9,1009,"5 blobs, a=10",5,"HDBSCAN, mcs=10",SUBST-R,5
+9,1009,"5 blobs, a=10",5,"HDBSCAN, mcs=100",SUBST-R,2
+9,1009,uniform square (k=1),1,Silhouette,RANGE,4
+9,1009,uniform square (k=1),1,Calinski-Harabasz,RANGE,4
+9,1009,uniform square (k=1),1,Gap statistic,RANGE,1
+9,1009,uniform square (k=1),1,BIC (spherical GMM),RANGE,4
+9,1009,uniform square (k=1),1,"DP-means, lambda=16",SUBST-D,7
+9,1009,uniform square (k=1),1,"Mean shift, h=1.5",SUBST-D,17
+9,1009,uniform square (k=1),1,"DBSCAN, eps=0.8",SUBST-D,7
+9,1009,uniform square (k=1),1,"G-means, alpha=0.05",SUBST-C,18
+9,1009,uniform square (k=1),1,"G-means, alpha=1e-4",SUBST-C,5
+9,1009,uniform square (k=1),1,"HDBSCAN, mcs=10",SUBST-R,7
+9,1009,uniform square (k=1),1,"HDBSCAN, mcs=100",SUBST-R,0
+9,1009,"12 blobs, k_max=10",12,Silhouette,RANGE,10
+9,1009,"12 blobs, k_max=10",12,Calinski-Harabasz,RANGE,10
+9,1009,"12 blobs, k_max=10",12,Gap statistic,RANGE,10
+9,1009,"12 blobs, k_max=10",12,BIC (spherical GMM),RANGE,10
+9,1009,"12 blobs, k_max=10",12,"DP-means, lambda=16",SUBST-D,15
+9,1009,"12 blobs, k_max=10",12,"Mean shift, h=1.5",SUBST-D,15
+9,1009,"12 blobs, k_max=10",12,"DBSCAN, eps=0.8",SUBST-D,13
+9,1009,"12 blobs, k_max=10",12,"G-means, alpha=0.05",SUBST-C,14
+9,1009,"12 blobs, k_max=10",12,"G-means, alpha=1e-4",SUBST-C,13
+9,1009,"12 blobs, k_max=10",12,"HDBSCAN, mcs=10",SUBST-R,12
+9,1009,"12 blobs, k_max=10",12,"HDBSCAN, mcs=100",SUBST-R,0
+10,1010,"5 blobs, a=0.1",5,Silhouette,RANGE,5
+10,1010,"5 blobs, a=0.1",5,Calinski-Harabasz,RANGE,5
+10,1010,"5 blobs, a=0.1",5,Gap statistic,RANGE,5
+10,1010,"5 blobs, a=0.1",5,BIC (spherical GMM),RANGE,5
+10,1010,"5 blobs, a=0.1",5,"DP-means, lambda=16",SUBST-D,1
+10,1010,"5 blobs, a=0.1",5,"Mean shift, h=1.5",SUBST-D,1
+10,1010,"5 blobs, a=0.1",5,"DBSCAN, eps=0.8",SUBST-D,1
+10,1010,"5 blobs, a=0.1",5,"G-means, alpha=0.05",SUBST-C,9
+10,1010,"5 blobs, a=0.1",5,"G-means, alpha=1e-4",SUBST-C,5
+10,1010,"5 blobs, a=0.1",5,"HDBSCAN, mcs=10",SUBST-R,5
+10,1010,"5 blobs, a=0.1",5,"HDBSCAN, mcs=100",SUBST-R,3
+10,1010,"5 blobs, a=1",5,Silhouette,RANGE,5
+10,1010,"5 blobs, a=1",5,Calinski-Harabasz,RANGE,5
+10,1010,"5 blobs, a=1",5,Gap statistic,RANGE,5
+10,1010,"5 blobs, a=1",5,BIC (spherical GMM),RANGE,5
+10,1010,"5 blobs, a=1",5,"DP-means, lambda=16",SUBST-D,8
+10,1010,"5 blobs, a=1",5,"Mean shift, h=1.5",SUBST-D,5
+10,1010,"5 blobs, a=1",5,"DBSCAN, eps=0.8",SUBST-D,5
+10,1010,"5 blobs, a=1",5,"G-means, alpha=0.05",SUBST-C,9
+10,1010,"5 blobs, a=1",5,"G-means, alpha=1e-4",SUBST-C,5
+10,1010,"5 blobs, a=1",5,"HDBSCAN, mcs=10",SUBST-R,5
+10,1010,"5 blobs, a=1",5,"HDBSCAN, mcs=100",SUBST-R,3
+10,1010,"5 blobs, a=10",5,Silhouette,RANGE,5
+10,1010,"5 blobs, a=10",5,Calinski-Harabasz,RANGE,5
+10,1010,"5 blobs, a=10",5,Gap statistic,RANGE,5
+10,1010,"5 blobs, a=10",5,BIC (spherical GMM),RANGE,5
+10,1010,"5 blobs, a=10",5,"DP-means, lambda=16",SUBST-D,207
+10,1010,"5 blobs, a=10",5,"Mean shift, h=1.5",SUBST-D,359
+10,1010,"5 blobs, a=10",5,"DBSCAN, eps=0.8",SUBST-D,0
+10,1010,"5 blobs, a=10",5,"G-means, alpha=0.05",SUBST-C,9
+10,1010,"5 blobs, a=10",5,"G-means, alpha=1e-4",SUBST-C,5
+10,1010,"5 blobs, a=10",5,"HDBSCAN, mcs=10",SUBST-R,5
+10,1010,"5 blobs, a=10",5,"HDBSCAN, mcs=100",SUBST-R,3
+10,1010,uniform square (k=1),1,Silhouette,RANGE,4
+10,1010,uniform square (k=1),1,Calinski-Harabasz,RANGE,9
+10,1010,uniform square (k=1),1,Gap statistic,RANGE,1
+10,1010,uniform square (k=1),1,BIC (spherical GMM),RANGE,4
+10,1010,uniform square (k=1),1,"DP-means, lambda=16",SUBST-D,8
+10,1010,uniform square (k=1),1,"Mean shift, h=1.5",SUBST-D,12
+10,1010,uniform square (k=1),1,"DBSCAN, eps=0.8",SUBST-D,5
+10,1010,uniform square (k=1),1,"G-means, alpha=0.05",SUBST-C,20
+10,1010,uniform square (k=1),1,"G-means, alpha=1e-4",SUBST-C,4
+10,1010,uniform square (k=1),1,"HDBSCAN, mcs=10",SUBST-R,10
+10,1010,uniform square (k=1),1,"HDBSCAN, mcs=100",SUBST-R,0
+10,1010,"12 blobs, k_max=10",12,Silhouette,RANGE,10
+10,1010,"12 blobs, k_max=10",12,Calinski-Harabasz,RANGE,10
+10,1010,"12 blobs, k_max=10",12,Gap statistic,RANGE,10
+10,1010,"12 blobs, k_max=10",12,BIC (spherical GMM),RANGE,10
+10,1010,"12 blobs, k_max=10",12,"DP-means, lambda=16",SUBST-D,15
+10,1010,"12 blobs, k_max=10",12,"Mean shift, h=1.5",SUBST-D,18
+10,1010,"12 blobs, k_max=10",12,"DBSCAN, eps=0.8",SUBST-D,11
+10,1010,"12 blobs, k_max=10",12,"G-means, alpha=0.05",SUBST-C,14
+10,1010,"12 blobs, k_max=10",12,"G-means, alpha=1e-4",SUBST-C,14
+10,1010,"12 blobs, k_max=10",12,"HDBSCAN, mcs=10",SUBST-R,12
+10,1010,"12 blobs, k_max=10",12,"HDBSCAN, mcs=100",SUBST-R,0
+11,1011,"5 blobs, a=0.1",5,Silhouette,RANGE,5
+11,1011,"5 blobs, a=0.1",5,Calinski-Harabasz,RANGE,5
+11,1011,"5 blobs, a=0.1",5,Gap statistic,RANGE,5
+11,1011,"5 blobs, a=0.1",5,BIC (spherical GMM),RANGE,5
+11,1011,"5 blobs, a=0.1",5,"DP-means, lambda=16",SUBST-D,1
+11,1011,"5 blobs, a=0.1",5,"Mean shift, h=1.5",SUBST-D,1
+11,1011,"5 blobs, a=0.1",5,"DBSCAN, eps=0.8",SUBST-D,1
+11,1011,"5 blobs, a=0.1",5,"G-means, alpha=0.05",SUBST-C,6
+11,1011,"5 blobs, a=0.1",5,"G-means, alpha=1e-4",SUBST-C,5
+11,1011,"5 blobs, a=0.1",5,"HDBSCAN, mcs=10",SUBST-R,5
+11,1011,"5 blobs, a=0.1",5,"HDBSCAN, mcs=100",SUBST-R,2
+11,1011,"5 blobs, a=1",5,Silhouette,RANGE,5
+11,1011,"5 blobs, a=1",5,Calinski-Harabasz,RANGE,5
+11,1011,"5 blobs, a=1",5,Gap statistic,RANGE,5
+11,1011,"5 blobs, a=1",5,BIC (spherical GMM),RANGE,5
+11,1011,"5 blobs, a=1",5,"DP-means, lambda=16",SUBST-D,8
+11,1011,"5 blobs, a=1",5,"Mean shift, h=1.5",SUBST-D,7
+11,1011,"5 blobs, a=1",5,"DBSCAN, eps=0.8",SUBST-D,5
+11,1011,"5 blobs, a=1",5,"G-means, alpha=0.05",SUBST-C,6
+11,1011,"5 blobs, a=1",5,"G-means, alpha=1e-4",SUBST-C,5
+11,1011,"5 blobs, a=1",5,"HDBSCAN, mcs=10",SUBST-R,5
+11,1011,"5 blobs, a=1",5,"HDBSCAN, mcs=100",SUBST-R,2
+11,1011,"5 blobs, a=10",5,Silhouette,RANGE,5
+11,1011,"5 blobs, a=10",5,Calinski-Harabasz,RANGE,5
+11,1011,"5 blobs, a=10",5,Gap statistic,RANGE,5
+11,1011,"5 blobs, a=10",5,BIC (spherical GMM),RANGE,5
+11,1011,"5 blobs, a=10",5,"DP-means, lambda=16",SUBST-D,208
+11,1011,"5 blobs, a=10",5,"Mean shift, h=1.5",SUBST-D,379
+11,1011,"5 blobs, a=10",5,"DBSCAN, eps=0.8",SUBST-D,0
+11,1011,"5 blobs, a=10",5,"G-means, alpha=0.05",SUBST-C,6
+11,1011,"5 blobs, a=10",5,"G-means, alpha=1e-4",SUBST-C,5
+11,1011,"5 blobs, a=10",5,"HDBSCAN, mcs=10",SUBST-R,5
+11,1011,"5 blobs, a=10",5,"HDBSCAN, mcs=100",SUBST-R,2
+11,1011,uniform square (k=1),1,Silhouette,RANGE,4
+11,1011,uniform square (k=1),1,Calinski-Harabasz,RANGE,8
+11,1011,uniform square (k=1),1,Gap statistic,RANGE,1
+11,1011,uniform square (k=1),1,BIC (spherical GMM),RANGE,4
+11,1011,uniform square (k=1),1,"DP-means, lambda=16",SUBST-D,8
+11,1011,uniform square (k=1),1,"Mean shift, h=1.5",SUBST-D,13
+11,1011,uniform square (k=1),1,"DBSCAN, eps=0.8",SUBST-D,2
+11,1011,uniform square (k=1),1,"G-means, alpha=0.05",SUBST-C,20
+11,1011,uniform square (k=1),1,"G-means, alpha=1e-4",SUBST-C,4
+11,1011,uniform square (k=1),1,"HDBSCAN, mcs=10",SUBST-R,5
+11,1011,uniform square (k=1),1,"HDBSCAN, mcs=100",SUBST-R,0
+11,1011,"12 blobs, k_max=10",12,Silhouette,RANGE,10
+11,1011,"12 blobs, k_max=10",12,Calinski-Harabasz,RANGE,10
+11,1011,"12 blobs, k_max=10",12,Gap statistic,RANGE,7
+11,1011,"12 blobs, k_max=10",12,BIC (spherical GMM),RANGE,10
+11,1011,"12 blobs, k_max=10",12,"DP-means, lambda=16",SUBST-D,19
+11,1011,"12 blobs, k_max=10",12,"Mean shift, h=1.5",SUBST-D,18
+11,1011,"12 blobs, k_max=10",12,"DBSCAN, eps=0.8",SUBST-D,13
+11,1011,"12 blobs, k_max=10",12,"G-means, alpha=0.05",SUBST-C,13
+11,1011,"12 blobs, k_max=10",12,"G-means, alpha=1e-4",SUBST-C,12
+11,1011,"12 blobs, k_max=10",12,"HDBSCAN, mcs=10",SUBST-R,12
+11,1011,"12 blobs, k_max=10",12,"HDBSCAN, mcs=100",SUBST-R,0
+12,1012,"5 blobs, a=0.1",5,Silhouette,RANGE,5
+12,1012,"5 blobs, a=0.1",5,Calinski-Harabasz,RANGE,5
+12,1012,"5 blobs, a=0.1",5,Gap statistic,RANGE,5
+12,1012,"5 blobs, a=0.1",5,BIC (spherical GMM),RANGE,5
+12,1012,"5 blobs, a=0.1",5,"DP-means, lambda=16",SUBST-D,1
+12,1012,"5 blobs, a=0.1",5,"Mean shift, h=1.5",SUBST-D,1
+12,1012,"5 blobs, a=0.1",5,"DBSCAN, eps=0.8",SUBST-D,1
+12,1012,"5 blobs, a=0.1",5,"G-means, alpha=0.05",SUBST-C,6
+12,1012,"5 blobs, a=0.1",5,"G-means, alpha=1e-4",SUBST-C,5
+12,1012,"5 blobs, a=0.1",5,"HDBSCAN, mcs=10",SUBST-R,5
+12,1012,"5 blobs, a=0.1",5,"HDBSCAN, mcs=100",SUBST-R,2
+12,1012,"5 blobs, a=1",5,Silhouette,RANGE,5
+12,1012,"5 blobs, a=1",5,Calinski-Harabasz,RANGE,5
+12,1012,"5 blobs, a=1",5,Gap statistic,RANGE,5
+12,1012,"5 blobs, a=1",5,BIC (spherical GMM),RANGE,5
+12,1012,"5 blobs, a=1",5,"DP-means, lambda=16",SUBST-D,9
+12,1012,"5 blobs, a=1",5,"Mean shift, h=1.5",SUBST-D,7
+12,1012,"5 blobs, a=1",5,"DBSCAN, eps=0.8",SUBST-D,5
+12,1012,"5 blobs, a=1",5,"G-means, alpha=0.05",SUBST-C,6
+12,1012,"5 blobs, a=1",5,"G-means, alpha=1e-4",SUBST-C,5
+12,1012,"5 blobs, a=1",5,"HDBSCAN, mcs=10",SUBST-R,5
+12,1012,"5 blobs, a=1",5,"HDBSCAN, mcs=100",SUBST-R,2
+12,1012,"5 blobs, a=10",5,Silhouette,RANGE,5
+12,1012,"5 blobs, a=10",5,Calinski-Harabasz,RANGE,5
+12,1012,"5 blobs, a=10",5,Gap statistic,RANGE,5
+12,1012,"5 blobs, a=10",5,BIC (spherical GMM),RANGE,5
+12,1012,"5 blobs, a=10",5,"DP-means, lambda=16",SUBST-D,200
+12,1012,"5 blobs, a=10",5,"Mean shift, h=1.5",SUBST-D,333
+12,1012,"5 blobs, a=10",5,"DBSCAN, eps=0.8",SUBST-D,0
+12,1012,"5 blobs, a=10",5,"G-means, alpha=0.05",SUBST-C,6
+12,1012,"5 blobs, a=10",5,"G-means, alpha=1e-4",SUBST-C,5
+12,1012,"5 blobs, a=10",5,"HDBSCAN, mcs=10",SUBST-R,5
+12,1012,"5 blobs, a=10",5,"HDBSCAN, mcs=100",SUBST-R,2
+12,1012,uniform square (k=1),1,Silhouette,RANGE,4
+12,1012,uniform square (k=1),1,Calinski-Harabasz,RANGE,4
+12,1012,uniform square (k=1),1,Gap statistic,RANGE,1
+12,1012,uniform square (k=1),1,BIC (spherical GMM),RANGE,4
+12,1012,uniform square (k=1),1,"DP-means, lambda=16",SUBST-D,7
+12,1012,uniform square (k=1),1,"Mean shift, h=1.5",SUBST-D,13
+12,1012,uniform square (k=1),1,"DBSCAN, eps=0.8",SUBST-D,1
+12,1012,uniform square (k=1),1,"G-means, alpha=0.05",SUBST-C,18
+12,1012,uniform square (k=1),1,"G-means, alpha=1e-4",SUBST-C,4
+12,1012,uniform square (k=1),1,"HDBSCAN, mcs=10",SUBST-R,6
+12,1012,uniform square (k=1),1,"HDBSCAN, mcs=100",SUBST-R,0
+12,1012,"12 blobs, k_max=10",12,Silhouette,RANGE,10
+12,1012,"12 blobs, k_max=10",12,Calinski-Harabasz,RANGE,10
+12,1012,"12 blobs, k_max=10",12,Gap statistic,RANGE,6
+12,1012,"12 blobs, k_max=10",12,BIC (spherical GMM),RANGE,10
+12,1012,"12 blobs, k_max=10",12,"DP-means, lambda=16",SUBST-D,14
+12,1012,"12 blobs, k_max=10",12,"Mean shift, h=1.5",SUBST-D,15
+12,1012,"12 blobs, k_max=10",12,"DBSCAN, eps=0.8",SUBST-D,12
+12,1012,"12 blobs, k_max=10",12,"G-means, alpha=0.05",SUBST-C,13
+12,1012,"12 blobs, k_max=10",12,"G-means, alpha=1e-4",SUBST-C,12
+12,1012,"12 blobs, k_max=10",12,"HDBSCAN, mcs=10",SUBST-R,12
+12,1012,"12 blobs, k_max=10",12,"HDBSCAN, mcs=100",SUBST-R,0
+13,1013,"5 blobs, a=0.1",5,Silhouette,RANGE,5
+13,1013,"5 blobs, a=0.1",5,Calinski-Harabasz,RANGE,5
+13,1013,"5 blobs, a=0.1",5,Gap statistic,RANGE,5
+13,1013,"5 blobs, a=0.1",5,BIC (spherical GMM),RANGE,5
+13,1013,"5 blobs, a=0.1",5,"DP-means, lambda=16",SUBST-D,1
+13,1013,"5 blobs, a=0.1",5,"Mean shift, h=1.5",SUBST-D,1
+13,1013,"5 blobs, a=0.1",5,"DBSCAN, eps=0.8",SUBST-D,1
+13,1013,"5 blobs, a=0.1",5,"G-means, alpha=0.05",SUBST-C,6
+13,1013,"5 blobs, a=0.1",5,"G-means, alpha=1e-4",SUBST-C,6
+13,1013,"5 blobs, a=0.1",5,"HDBSCAN, mcs=10",SUBST-R,5
+13,1013,"5 blobs, a=0.1",5,"HDBSCAN, mcs=100",SUBST-R,2
+13,1013,"5 blobs, a=1",5,Silhouette,RANGE,5
+13,1013,"5 blobs, a=1",5,Calinski-Harabasz,RANGE,5
+13,1013,"5 blobs, a=1",5,Gap statistic,RANGE,5
+13,1013,"5 blobs, a=1",5,BIC (spherical GMM),RANGE,5
+13,1013,"5 blobs, a=1",5,"DP-means, lambda=16",SUBST-D,6
+13,1013,"5 blobs, a=1",5,"Mean shift, h=1.5",SUBST-D,7
+13,1013,"5 blobs, a=1",5,"DBSCAN, eps=0.8",SUBST-D,5
+13,1013,"5 blobs, a=1",5,"G-means, alpha=0.05",SUBST-C,6
+13,1013,"5 blobs, a=1",5,"G-means, alpha=1e-4",SUBST-C,6
+13,1013,"5 blobs, a=1",5,"HDBSCAN, mcs=10",SUBST-R,5
+13,1013,"5 blobs, a=1",5,"HDBSCAN, mcs=100",SUBST-R,2
+13,1013,"5 blobs, a=10",5,Silhouette,RANGE,5
+13,1013,"5 blobs, a=10",5,Calinski-Harabasz,RANGE,5
+13,1013,"5 blobs, a=10",5,Gap statistic,RANGE,5
+13,1013,"5 blobs, a=10",5,BIC (spherical GMM),RANGE,5
+13,1013,"5 blobs, a=10",5,"DP-means, lambda=16",SUBST-D,192
+13,1013,"5 blobs, a=10",5,"Mean shift, h=1.5",SUBST-D,348
+13,1013,"5 blobs, a=10",5,"DBSCAN, eps=0.8",SUBST-D,0
+13,1013,"5 blobs, a=10",5,"G-means, alpha=0.05",SUBST-C,6
+13,1013,"5 blobs, a=10",5,"G-means, alpha=1e-4",SUBST-C,6
+13,1013,"5 blobs, a=10",5,"HDBSCAN, mcs=10",SUBST-R,5
+13,1013,"5 blobs, a=10",5,"HDBSCAN, mcs=100",SUBST-R,2
+13,1013,uniform square (k=1),1,Silhouette,RANGE,4
+13,1013,uniform square (k=1),1,Calinski-Harabasz,RANGE,9
+13,1013,uniform square (k=1),1,Gap statistic,RANGE,1
+13,1013,uniform square (k=1),1,BIC (spherical GMM),RANGE,4
+13,1013,uniform square (k=1),1,"DP-means, lambda=16",SUBST-D,6
+13,1013,uniform square (k=1),1,"Mean shift, h=1.5",SUBST-D,15
+13,1013,uniform square (k=1),1,"DBSCAN, eps=0.8",SUBST-D,5
+13,1013,uniform square (k=1),1,"G-means, alpha=0.05",SUBST-C,8
+13,1013,uniform square (k=1),1,"G-means, alpha=1e-4",SUBST-C,4
+13,1013,uniform square (k=1),1,"HDBSCAN, mcs=10",SUBST-R,6
+13,1013,uniform square (k=1),1,"HDBSCAN, mcs=100",SUBST-R,0
+13,1013,"12 blobs, k_max=10",12,Silhouette,RANGE,10
+13,1013,"12 blobs, k_max=10",12,Calinski-Harabasz,RANGE,10
+13,1013,"12 blobs, k_max=10",12,Gap statistic,RANGE,10
+13,1013,"12 blobs, k_max=10",12,BIC (spherical GMM),RANGE,10
+13,1013,"12 blobs, k_max=10",12,"DP-means, lambda=16",SUBST-D,16
+13,1013,"12 blobs, k_max=10",12,"Mean shift, h=1.5",SUBST-D,17
+13,1013,"12 blobs, k_max=10",12,"DBSCAN, eps=0.8",SUBST-D,11
+13,1013,"12 blobs, k_max=10",12,"G-means, alpha=0.05",SUBST-C,13
+13,1013,"12 blobs, k_max=10",12,"G-means, alpha=1e-4",SUBST-C,13
+13,1013,"12 blobs, k_max=10",12,"HDBSCAN, mcs=10",SUBST-R,12
+13,1013,"12 blobs, k_max=10",12,"HDBSCAN, mcs=100",SUBST-R,2
+14,1014,"5 blobs, a=0.1",5,Silhouette,RANGE,5
+14,1014,"5 blobs, a=0.1",5,Calinski-Harabasz,RANGE,5
+14,1014,"5 blobs, a=0.1",5,Gap statistic,RANGE,5
+14,1014,"5 blobs, a=0.1",5,BIC (spherical GMM),RANGE,5
+14,1014,"5 blobs, a=0.1",5,"DP-means, lambda=16",SUBST-D,1
+14,1014,"5 blobs, a=0.1",5,"Mean shift, h=1.5",SUBST-D,1
+14,1014,"5 blobs, a=0.1",5,"DBSCAN, eps=0.8",SUBST-D,1
+14,1014,"5 blobs, a=0.1",5,"G-means, alpha=0.05",SUBST-C,5
+14,1014,"5 blobs, a=0.1",5,"G-means, alpha=1e-4",SUBST-C,5
+14,1014,"5 blobs, a=0.1",5,"HDBSCAN, mcs=10",SUBST-R,5
+14,1014,"5 blobs, a=0.1",5,"HDBSCAN, mcs=100",SUBST-R,2
+14,1014,"5 blobs, a=1",5,Silhouette,RANGE,5
+14,1014,"5 blobs, a=1",5,Calinski-Harabasz,RANGE,5
+14,1014,"5 blobs, a=1",5,Gap statistic,RANGE,5
+14,1014,"5 blobs, a=1",5,BIC (spherical GMM),RANGE,5
+14,1014,"5 blobs, a=1",5,"DP-means, lambda=16",SUBST-D,7
+14,1014,"5 blobs, a=1",5,"Mean shift, h=1.5",SUBST-D,6
+14,1014,"5 blobs, a=1",5,"DBSCAN, eps=0.8",SUBST-D,5
+14,1014,"5 blobs, a=1",5,"G-means, alpha=0.05",SUBST-C,5
+14,1014,"5 blobs, a=1",5,"G-means, alpha=1e-4",SUBST-C,5
+14,1014,"5 blobs, a=1",5,"HDBSCAN, mcs=10",SUBST-R,5
+14,1014,"5 blobs, a=1",5,"HDBSCAN, mcs=100",SUBST-R,2
+14,1014,"5 blobs, a=10",5,Silhouette,RANGE,5
+14,1014,"5 blobs, a=10",5,Calinski-Harabasz,RANGE,5
+14,1014,"5 blobs, a=10",5,Gap statistic,RANGE,5
+14,1014,"5 blobs, a=10",5,BIC (spherical GMM),RANGE,5
+14,1014,"5 blobs, a=10",5,"DP-means, lambda=16",SUBST-D,195
+14,1014,"5 blobs, a=10",5,"Mean shift, h=1.5",SUBST-D,338
+14,1014,"5 blobs, a=10",5,"DBSCAN, eps=0.8",SUBST-D,0
+14,1014,"5 blobs, a=10",5,"G-means, alpha=0.05",SUBST-C,5
+14,1014,"5 blobs, a=10",5,"G-means, alpha=1e-4",SUBST-C,5
+14,1014,"5 blobs, a=10",5,"HDBSCAN, mcs=10",SUBST-R,5
+14,1014,"5 blobs, a=10",5,"HDBSCAN, mcs=100",SUBST-R,2
+14,1014,uniform square (k=1),1,Silhouette,RANGE,4
+14,1014,uniform square (k=1),1,Calinski-Harabasz,RANGE,9
+14,1014,uniform square (k=1),1,Gap statistic,RANGE,1
+14,1014,uniform square (k=1),1,BIC (spherical GMM),RANGE,4
+14,1014,uniform square (k=1),1,"DP-means, lambda=16",SUBST-D,7
+14,1014,uniform square (k=1),1,"Mean shift, h=1.5",SUBST-D,14
+14,1014,uniform square (k=1),1,"DBSCAN, eps=0.8",SUBST-D,4
+14,1014,uniform square (k=1),1,"G-means, alpha=0.05",SUBST-C,21
+14,1014,uniform square (k=1),1,"G-means, alpha=1e-4",SUBST-C,5
+14,1014,uniform square (k=1),1,"HDBSCAN, mcs=10",SUBST-R,2
+14,1014,uniform square (k=1),1,"HDBSCAN, mcs=100",SUBST-R,0
+14,1014,"12 blobs, k_max=10",12,Silhouette,RANGE,10
+14,1014,"12 blobs, k_max=10",12,Calinski-Harabasz,RANGE,10
+14,1014,"12 blobs, k_max=10",12,Gap statistic,RANGE,10
+14,1014,"12 blobs, k_max=10",12,BIC (spherical GMM),RANGE,10
+14,1014,"12 blobs, k_max=10",12,"DP-means, lambda=16",SUBST-D,17
+14,1014,"12 blobs, k_max=10",12,"Mean shift, h=1.5",SUBST-D,17
+14,1014,"12 blobs, k_max=10",12,"DBSCAN, eps=0.8",SUBST-D,13
+14,1014,"12 blobs, k_max=10",12,"G-means, alpha=0.05",SUBST-C,17
+14,1014,"12 blobs, k_max=10",12,"G-means, alpha=1e-4",SUBST-C,13
+14,1014,"12 blobs, k_max=10",12,"HDBSCAN, mcs=10",SUBST-R,12
+14,1014,"12 blobs, k_max=10",12,"HDBSCAN, mcs=100",SUBST-R,0
+15,1015,"5 blobs, a=0.1",5,Silhouette,RANGE,5
+15,1015,"5 blobs, a=0.1",5,Calinski-Harabasz,RANGE,5
+15,1015,"5 blobs, a=0.1",5,Gap statistic,RANGE,5
+15,1015,"5 blobs, a=0.1",5,BIC (spherical GMM),RANGE,5
+15,1015,"5 blobs, a=0.1",5,"DP-means, lambda=16",SUBST-D,1
+15,1015,"5 blobs, a=0.1",5,"Mean shift, h=1.5",SUBST-D,1
+15,1015,"5 blobs, a=0.1",5,"DBSCAN, eps=0.8",SUBST-D,1
+15,1015,"5 blobs, a=0.1",5,"G-means, alpha=0.05",SUBST-C,5
+15,1015,"5 blobs, a=0.1",5,"G-means, alpha=1e-4",SUBST-C,5
+15,1015,"5 blobs, a=0.1",5,"HDBSCAN, mcs=10",SUBST-R,5
+15,1015,"5 blobs, a=0.1",5,"HDBSCAN, mcs=100",SUBST-R,2
+15,1015,"5 blobs, a=1",5,Silhouette,RANGE,5
+15,1015,"5 blobs, a=1",5,Calinski-Harabasz,RANGE,5
+15,1015,"5 blobs, a=1",5,Gap statistic,RANGE,5
+15,1015,"5 blobs, a=1",5,BIC (spherical GMM),RANGE,5
+15,1015,"5 blobs, a=1",5,"DP-means, lambda=16",SUBST-D,8
+15,1015,"5 blobs, a=1",5,"Mean shift, h=1.5",SUBST-D,5
+15,1015,"5 blobs, a=1",5,"DBSCAN, eps=0.8",SUBST-D,5
+15,1015,"5 blobs, a=1",5,"G-means, alpha=0.05",SUBST-C,5
+15,1015,"5 blobs, a=1",5,"G-means, alpha=1e-4",SUBST-C,5
+15,1015,"5 blobs, a=1",5,"HDBSCAN, mcs=10",SUBST-R,5
+15,1015,"5 blobs, a=1",5,"HDBSCAN, mcs=100",SUBST-R,2
+15,1015,"5 blobs, a=10",5,Silhouette,RANGE,5
+15,1015,"5 blobs, a=10",5,Calinski-Harabasz,RANGE,5
+15,1015,"5 blobs, a=10",5,Gap statistic,RANGE,5
+15,1015,"5 blobs, a=10",5,BIC (spherical GMM),RANGE,5
+15,1015,"5 blobs, a=10",5,"DP-means, lambda=16",SUBST-D,204
+15,1015,"5 blobs, a=10",5,"Mean shift, h=1.5",SUBST-D,362
+15,1015,"5 blobs, a=10",5,"DBSCAN, eps=0.8",SUBST-D,0
+15,1015,"5 blobs, a=10",5,"G-means, alpha=0.05",SUBST-C,5
+15,1015,"5 blobs, a=10",5,"G-means, alpha=1e-4",SUBST-C,5
+15,1015,"5 blobs, a=10",5,"HDBSCAN, mcs=10",SUBST-R,5
+15,1015,"5 blobs, a=10",5,"HDBSCAN, mcs=100",SUBST-R,2
+15,1015,uniform square (k=1),1,Silhouette,RANGE,4
+15,1015,uniform square (k=1),1,Calinski-Harabasz,RANGE,8
+15,1015,uniform square (k=1),1,Gap statistic,RANGE,1
+15,1015,uniform square (k=1),1,BIC (spherical GMM),RANGE,4
+15,1015,uniform square (k=1),1,"DP-means, lambda=16",SUBST-D,6
+15,1015,uniform square (k=1),1,"Mean shift, h=1.5",SUBST-D,16
+15,1015,uniform square (k=1),1,"DBSCAN, eps=0.8",SUBST-D,4
+15,1015,uniform square (k=1),1,"G-means, alpha=0.05",SUBST-C,23
+15,1015,uniform square (k=1),1,"G-means, alpha=1e-4",SUBST-C,4
+15,1015,uniform square (k=1),1,"HDBSCAN, mcs=10",SUBST-R,6
+15,1015,uniform square (k=1),1,"HDBSCAN, mcs=100",SUBST-R,0
+15,1015,"12 blobs, k_max=10",12,Silhouette,RANGE,10
+15,1015,"12 blobs, k_max=10",12,Calinski-Harabasz,RANGE,10
+15,1015,"12 blobs, k_max=10",12,Gap statistic,RANGE,6
+15,1015,"12 blobs, k_max=10",12,BIC (spherical GMM),RANGE,10
+15,1015,"12 blobs, k_max=10",12,"DP-means, lambda=16",SUBST-D,15
+15,1015,"12 blobs, k_max=10",12,"Mean shift, h=1.5",SUBST-D,17
+15,1015,"12 blobs, k_max=10",12,"DBSCAN, eps=0.8",SUBST-D,12
+15,1015,"12 blobs, k_max=10",12,"G-means, alpha=0.05",SUBST-C,14
+15,1015,"12 blobs, k_max=10",12,"G-means, alpha=1e-4",SUBST-C,13
+15,1015,"12 blobs, k_max=10",12,"HDBSCAN, mcs=10",SUBST-R,12
+15,1015,"12 blobs, k_max=10",12,"HDBSCAN, mcs=100",SUBST-R,0
+16,1016,"5 blobs, a=0.1",5,Silhouette,RANGE,5
+16,1016,"5 blobs, a=0.1",5,Calinski-Harabasz,RANGE,5
+16,1016,"5 blobs, a=0.1",5,Gap statistic,RANGE,5
+16,1016,"5 blobs, a=0.1",5,BIC (spherical GMM),RANGE,5
+16,1016,"5 blobs, a=0.1",5,"DP-means, lambda=16",SUBST-D,1
+16,1016,"5 blobs, a=0.1",5,"Mean shift, h=1.5",SUBST-D,1
+16,1016,"5 blobs, a=0.1",5,"DBSCAN, eps=0.8",SUBST-D,1
+16,1016,"5 blobs, a=0.1",5,"G-means, alpha=0.05",SUBST-C,6
+16,1016,"5 blobs, a=0.1",5,"G-means, alpha=1e-4",SUBST-C,5
+16,1016,"5 blobs, a=0.1",5,"HDBSCAN, mcs=10",SUBST-R,5
+16,1016,"5 blobs, a=0.1",5,"HDBSCAN, mcs=100",SUBST-R,2
+16,1016,"5 blobs, a=1",5,Silhouette,RANGE,5
+16,1016,"5 blobs, a=1",5,Calinski-Harabasz,RANGE,5
+16,1016,"5 blobs, a=1",5,Gap statistic,RANGE,5
+16,1016,"5 blobs, a=1",5,BIC (spherical GMM),RANGE,5
+16,1016,"5 blobs, a=1",5,"DP-means, lambda=16",SUBST-D,7
+16,1016,"5 blobs, a=1",5,"Mean shift, h=1.5",SUBST-D,5
+16,1016,"5 blobs, a=1",5,"DBSCAN, eps=0.8",SUBST-D,5
+16,1016,"5 blobs, a=1",5,"G-means, alpha=0.05",SUBST-C,6
+16,1016,"5 blobs, a=1",5,"G-means, alpha=1e-4",SUBST-C,5
+16,1016,"5 blobs, a=1",5,"HDBSCAN, mcs=10",SUBST-R,5
+16,1016,"5 blobs, a=1",5,"HDBSCAN, mcs=100",SUBST-R,2
+16,1016,"5 blobs, a=10",5,Silhouette,RANGE,5
+16,1016,"5 blobs, a=10",5,Calinski-Harabasz,RANGE,5
+16,1016,"5 blobs, a=10",5,Gap statistic,RANGE,5
+16,1016,"5 blobs, a=10",5,BIC (spherical GMM),RANGE,5
+16,1016,"5 blobs, a=10",5,"DP-means, lambda=16",SUBST-D,203
+16,1016,"5 blobs, a=10",5,"Mean shift, h=1.5",SUBST-D,357
+16,1016,"5 blobs, a=10",5,"DBSCAN, eps=0.8",SUBST-D,0
+16,1016,"5 blobs, a=10",5,"G-means, alpha=0.05",SUBST-C,6
+16,1016,"5 blobs, a=10",5,"G-means, alpha=1e-4",SUBST-C,5
+16,1016,"5 blobs, a=10",5,"HDBSCAN, mcs=10",SUBST-R,5
+16,1016,"5 blobs, a=10",5,"HDBSCAN, mcs=100",SUBST-R,2
+16,1016,uniform square (k=1),1,Silhouette,RANGE,4
+16,1016,uniform square (k=1),1,Calinski-Harabasz,RANGE,4
+16,1016,uniform square (k=1),1,Gap statistic,RANGE,1
+16,1016,uniform square (k=1),1,BIC (spherical GMM),RANGE,4
+16,1016,uniform square (k=1),1,"DP-means, lambda=16",SUBST-D,7
+16,1016,uniform square (k=1),1,"Mean shift, h=1.5",SUBST-D,13
+16,1016,uniform square (k=1),1,"DBSCAN, eps=0.8",SUBST-D,4
+16,1016,uniform square (k=1),1,"G-means, alpha=0.05",SUBST-C,21
+16,1016,uniform square (k=1),1,"G-means, alpha=1e-4",SUBST-C,5
+16,1016,uniform square (k=1),1,"HDBSCAN, mcs=10",SUBST-R,4
+16,1016,uniform square (k=1),1,"HDBSCAN, mcs=100",SUBST-R,0
+16,1016,"12 blobs, k_max=10",12,Silhouette,RANGE,10
+16,1016,"12 blobs, k_max=10",12,Calinski-Harabasz,RANGE,10
+16,1016,"12 blobs, k_max=10",12,Gap statistic,RANGE,10
+16,1016,"12 blobs, k_max=10",12,BIC (spherical GMM),RANGE,10
+16,1016,"12 blobs, k_max=10",12,"DP-means, lambda=16",SUBST-D,20
+16,1016,"12 blobs, k_max=10",12,"Mean shift, h=1.5",SUBST-D,17
+16,1016,"12 blobs, k_max=10",12,"DBSCAN, eps=0.8",SUBST-D,10
+16,1016,"12 blobs, k_max=10",12,"G-means, alpha=0.05",SUBST-C,14
+16,1016,"12 blobs, k_max=10",12,"G-means, alpha=1e-4",SUBST-C,12
+16,1016,"12 blobs, k_max=10",12,"HDBSCAN, mcs=10",SUBST-R,12
+16,1016,"12 blobs, k_max=10",12,"HDBSCAN, mcs=100",SUBST-R,0
+17,1017,"5 blobs, a=0.1",5,Silhouette,RANGE,5
+17,1017,"5 blobs, a=0.1",5,Calinski-Harabasz,RANGE,5
+17,1017,"5 blobs, a=0.1",5,Gap statistic,RANGE,5
+17,1017,"5 blobs, a=0.1",5,BIC (spherical GMM),RANGE,5
+17,1017,"5 blobs, a=0.1",5,"DP-means, lambda=16",SUBST-D,1
+17,1017,"5 blobs, a=0.1",5,"Mean shift, h=1.5",SUBST-D,1
+17,1017,"5 blobs, a=0.1",5,"DBSCAN, eps=0.8",SUBST-D,1
+17,1017,"5 blobs, a=0.1",5,"G-means, alpha=0.05",SUBST-C,6
+17,1017,"5 blobs, a=0.1",5,"G-means, alpha=1e-4",SUBST-C,5
+17,1017,"5 blobs, a=0.1",5,"HDBSCAN, mcs=10",SUBST-R,5
+17,1017,"5 blobs, a=0.1",5,"HDBSCAN, mcs=100",SUBST-R,2
+17,1017,"5 blobs, a=1",5,Silhouette,RANGE,5
+17,1017,"5 blobs, a=1",5,Calinski-Harabasz,RANGE,5
+17,1017,"5 blobs, a=1",5,Gap statistic,RANGE,5
+17,1017,"5 blobs, a=1",5,BIC (spherical GMM),RANGE,5
+17,1017,"5 blobs, a=1",5,"DP-means, lambda=16",SUBST-D,8
+17,1017,"5 blobs, a=1",5,"Mean shift, h=1.5",SUBST-D,6
+17,1017,"5 blobs, a=1",5,"DBSCAN, eps=0.8",SUBST-D,5
+17,1017,"5 blobs, a=1",5,"G-means, alpha=0.05",SUBST-C,6
+17,1017,"5 blobs, a=1",5,"G-means, alpha=1e-4",SUBST-C,5
+17,1017,"5 blobs, a=1",5,"HDBSCAN, mcs=10",SUBST-R,5
+17,1017,"5 blobs, a=1",5,"HDBSCAN, mcs=100",SUBST-R,2
+17,1017,"5 blobs, a=10",5,Silhouette,RANGE,5
+17,1017,"5 blobs, a=10",5,Calinski-Harabasz,RANGE,5
+17,1017,"5 blobs, a=10",5,Gap statistic,RANGE,5
+17,1017,"5 blobs, a=10",5,BIC (spherical GMM),RANGE,5
+17,1017,"5 blobs, a=10",5,"DP-means, lambda=16",SUBST-D,202
+17,1017,"5 blobs, a=10",5,"Mean shift, h=1.5",SUBST-D,358
+17,1017,"5 blobs, a=10",5,"DBSCAN, eps=0.8",SUBST-D,0
+17,1017,"5 blobs, a=10",5,"G-means, alpha=0.05",SUBST-C,6
+17,1017,"5 blobs, a=10",5,"G-means, alpha=1e-4",SUBST-C,5
+17,1017,"5 blobs, a=10",5,"HDBSCAN, mcs=10",SUBST-R,5
+17,1017,"5 blobs, a=10",5,"HDBSCAN, mcs=100",SUBST-R,2
+17,1017,uniform square (k=1),1,Silhouette,RANGE,4
+17,1017,uniform square (k=1),1,Calinski-Harabasz,RANGE,9
+17,1017,uniform square (k=1),1,Gap statistic,RANGE,1
+17,1017,uniform square (k=1),1,BIC (spherical GMM),RANGE,4
+17,1017,uniform square (k=1),1,"DP-means, lambda=16",SUBST-D,7
+17,1017,uniform square (k=1),1,"Mean shift, h=1.5",SUBST-D,11
+17,1017,uniform square (k=1),1,"DBSCAN, eps=0.8",SUBST-D,4
+17,1017,uniform square (k=1),1,"G-means, alpha=0.05",SUBST-C,39
+17,1017,uniform square (k=1),1,"G-means, alpha=1e-4",SUBST-C,5
+17,1017,uniform square (k=1),1,"HDBSCAN, mcs=10",SUBST-R,3
+17,1017,uniform square (k=1),1,"HDBSCAN, mcs=100",SUBST-R,0
+17,1017,"12 blobs, k_max=10",12,Silhouette,RANGE,10
+17,1017,"12 blobs, k_max=10",12,Calinski-Harabasz,RANGE,10
+17,1017,"12 blobs, k_max=10",12,Gap statistic,RANGE,6
+17,1017,"12 blobs, k_max=10",12,BIC (spherical GMM),RANGE,10
+17,1017,"12 blobs, k_max=10",12,"DP-means, lambda=16",SUBST-D,17
+17,1017,"12 blobs, k_max=10",12,"Mean shift, h=1.5",SUBST-D,14
+17,1017,"12 blobs, k_max=10",12,"DBSCAN, eps=0.8",SUBST-D,12
+17,1017,"12 blobs, k_max=10",12,"G-means, alpha=0.05",SUBST-C,12
+17,1017,"12 blobs, k_max=10",12,"G-means, alpha=1e-4",SUBST-C,12
+17,1017,"12 blobs, k_max=10",12,"HDBSCAN, mcs=10",SUBST-R,12
+17,1017,"12 blobs, k_max=10",12,"HDBSCAN, mcs=100",SUBST-R,0
+18,1018,"5 blobs, a=0.1",5,Silhouette,RANGE,5
+18,1018,"5 blobs, a=0.1",5,Calinski-Harabasz,RANGE,5
+18,1018,"5 blobs, a=0.1",5,Gap statistic,RANGE,5
+18,1018,"5 blobs, a=0.1",5,BIC (spherical GMM),RANGE,5
+18,1018,"5 blobs, a=0.1",5,"DP-means, lambda=16",SUBST-D,1
+18,1018,"5 blobs, a=0.1",5,"Mean shift, h=1.5",SUBST-D,1
+18,1018,"5 blobs, a=0.1",5,"DBSCAN, eps=0.8",SUBST-D,1
+18,1018,"5 blobs, a=0.1",5,"G-means, alpha=0.05",SUBST-C,12
+18,1018,"5 blobs, a=0.1",5,"G-means, alpha=1e-4",SUBST-C,5
+18,1018,"5 blobs, a=0.1",5,"HDBSCAN, mcs=10",SUBST-R,5
+18,1018,"5 blobs, a=0.1",5,"HDBSCAN, mcs=100",SUBST-R,2
+18,1018,"5 blobs, a=1",5,Silhouette,RANGE,5
+18,1018,"5 blobs, a=1",5,Calinski-Harabasz,RANGE,5
+18,1018,"5 blobs, a=1",5,Gap statistic,RANGE,5
+18,1018,"5 blobs, a=1",5,BIC (spherical GMM),RANGE,5
+18,1018,"5 blobs, a=1",5,"DP-means, lambda=16",SUBST-D,8
+18,1018,"5 blobs, a=1",5,"Mean shift, h=1.5",SUBST-D,7
+18,1018,"5 blobs, a=1",5,"DBSCAN, eps=0.8",SUBST-D,5
+18,1018,"5 blobs, a=1",5,"G-means, alpha=0.05",SUBST-C,12
+18,1018,"5 blobs, a=1",5,"G-means, alpha=1e-4",SUBST-C,5
+18,1018,"5 blobs, a=1",5,"HDBSCAN, mcs=10",SUBST-R,5
+18,1018,"5 blobs, a=1",5,"HDBSCAN, mcs=100",SUBST-R,2
+18,1018,"5 blobs, a=10",5,Silhouette,RANGE,5
+18,1018,"5 blobs, a=10",5,Calinski-Harabasz,RANGE,5
+18,1018,"5 blobs, a=10",5,Gap statistic,RANGE,5
+18,1018,"5 blobs, a=10",5,BIC (spherical GMM),RANGE,5
+18,1018,"5 blobs, a=10",5,"DP-means, lambda=16",SUBST-D,191
+18,1018,"5 blobs, a=10",5,"Mean shift, h=1.5",SUBST-D,341
+18,1018,"5 blobs, a=10",5,"DBSCAN, eps=0.8",SUBST-D,0
+18,1018,"5 blobs, a=10",5,"G-means, alpha=0.05",SUBST-C,12
+18,1018,"5 blobs, a=10",5,"G-means, alpha=1e-4",SUBST-C,5
+18,1018,"5 blobs, a=10",5,"HDBSCAN, mcs=10",SUBST-R,5
+18,1018,"5 blobs, a=10",5,"HDBSCAN, mcs=100",SUBST-R,2
+18,1018,uniform square (k=1),1,Silhouette,RANGE,4
+18,1018,uniform square (k=1),1,Calinski-Harabasz,RANGE,10
+18,1018,uniform square (k=1),1,Gap statistic,RANGE,1
+18,1018,uniform square (k=1),1,BIC (spherical GMM),RANGE,4
+18,1018,uniform square (k=1),1,"DP-means, lambda=16",SUBST-D,7
+18,1018,uniform square (k=1),1,"Mean shift, h=1.5",SUBST-D,14
+18,1018,uniform square (k=1),1,"DBSCAN, eps=0.8",SUBST-D,4
+18,1018,uniform square (k=1),1,"G-means, alpha=0.05",SUBST-C,15
+18,1018,uniform square (k=1),1,"G-means, alpha=1e-4",SUBST-C,5
+18,1018,uniform square (k=1),1,"HDBSCAN, mcs=10",SUBST-R,3
+18,1018,uniform square (k=1),1,"HDBSCAN, mcs=100",SUBST-R,0
+18,1018,"12 blobs, k_max=10",12,Silhouette,RANGE,10
+18,1018,"12 blobs, k_max=10",12,Calinski-Harabasz,RANGE,10
+18,1018,"12 blobs, k_max=10",12,Gap statistic,RANGE,6
+18,1018,"12 blobs, k_max=10",12,BIC (spherical GMM),RANGE,10
+18,1018,"12 blobs, k_max=10",12,"DP-means, lambda=16",SUBST-D,16
+18,1018,"12 blobs, k_max=10",12,"Mean shift, h=1.5",SUBST-D,16
+18,1018,"12 blobs, k_max=10",12,"DBSCAN, eps=0.8",SUBST-D,11
+18,1018,"12 blobs, k_max=10",12,"G-means, alpha=0.05",SUBST-C,16
+18,1018,"12 blobs, k_max=10",12,"G-means, alpha=1e-4",SUBST-C,13
+18,1018,"12 blobs, k_max=10",12,"HDBSCAN, mcs=10",SUBST-R,12
+18,1018,"12 blobs, k_max=10",12,"HDBSCAN, mcs=100",SUBST-R,0
+19,1019,"5 blobs, a=0.1",5,Silhouette,RANGE,5
+19,1019,"5 blobs, a=0.1",5,Calinski-Harabasz,RANGE,5
+19,1019,"5 blobs, a=0.1",5,Gap statistic,RANGE,5
+19,1019,"5 blobs, a=0.1",5,BIC (spherical GMM),RANGE,5
+19,1019,"5 blobs, a=0.1",5,"DP-means, lambda=16",SUBST-D,1
+19,1019,"5 blobs, a=0.1",5,"Mean shift, h=1.5",SUBST-D,1
+19,1019,"5 blobs, a=0.1",5,"DBSCAN, eps=0.8",SUBST-D,1
+19,1019,"5 blobs, a=0.1",5,"G-means, alpha=0.05",SUBST-C,5
+19,1019,"5 blobs, a=0.1",5,"G-means, alpha=1e-4",SUBST-C,5
+19,1019,"5 blobs, a=0.1",5,"HDBSCAN, mcs=10",SUBST-R,5
+19,1019,"5 blobs, a=0.1",5,"HDBSCAN, mcs=100",SUBST-R,2
+19,1019,"5 blobs, a=1",5,Silhouette,RANGE,5
+19,1019,"5 blobs, a=1",5,Calinski-Harabasz,RANGE,5
+19,1019,"5 blobs, a=1",5,Gap statistic,RANGE,5
+19,1019,"5 blobs, a=1",5,BIC (spherical GMM),RANGE,5
+19,1019,"5 blobs, a=1",5,"DP-means, lambda=16",SUBST-D,8
+19,1019,"5 blobs, a=1",5,"Mean shift, h=1.5",SUBST-D,8
+19,1019,"5 blobs, a=1",5,"DBSCAN, eps=0.8",SUBST-D,5
+19,1019,"5 blobs, a=1",5,"G-means, alpha=0.05",SUBST-C,5
+19,1019,"5 blobs, a=1",5,"G-means, alpha=1e-4",SUBST-C,5
+19,1019,"5 blobs, a=1",5,"HDBSCAN, mcs=10",SUBST-R,5
+19,1019,"5 blobs, a=1",5,"HDBSCAN, mcs=100",SUBST-R,2
+19,1019,"5 blobs, a=10",5,Silhouette,RANGE,5
+19,1019,"5 blobs, a=10",5,Calinski-Harabasz,RANGE,5
+19,1019,"5 blobs, a=10",5,Gap statistic,RANGE,5
+19,1019,"5 blobs, a=10",5,BIC (spherical GMM),RANGE,5
+19,1019,"5 blobs, a=10",5,"DP-means, lambda=16",SUBST-D,191
+19,1019,"5 blobs, a=10",5,"Mean shift, h=1.5",SUBST-D,356
+19,1019,"5 blobs, a=10",5,"DBSCAN, eps=0.8",SUBST-D,0
+19,1019,"5 blobs, a=10",5,"G-means, alpha=0.05",SUBST-C,5
+19,1019,"5 blobs, a=10",5,"G-means, alpha=1e-4",SUBST-C,5
+19,1019,"5 blobs, a=10",5,"HDBSCAN, mcs=10",SUBST-R,5
+19,1019,"5 blobs, a=10",5,"HDBSCAN, mcs=100",SUBST-R,2
+19,1019,uniform square (k=1),1,Silhouette,RANGE,4
+19,1019,uniform square (k=1),1,Calinski-Harabasz,RANGE,9
+19,1019,uniform square (k=1),1,Gap statistic,RANGE,1
+19,1019,uniform square (k=1),1,BIC (spherical GMM),RANGE,4
+19,1019,uniform square (k=1),1,"DP-means, lambda=16",SUBST-D,6
+19,1019,uniform square (k=1),1,"Mean shift, h=1.5",SUBST-D,15
+19,1019,uniform square (k=1),1,"DBSCAN, eps=0.8",SUBST-D,6
+19,1019,uniform square (k=1),1,"G-means, alpha=0.05",SUBST-C,20
+19,1019,uniform square (k=1),1,"G-means, alpha=1e-4",SUBST-C,4
+19,1019,uniform square (k=1),1,"HDBSCAN, mcs=10",SUBST-R,4
+19,1019,uniform square (k=1),1,"HDBSCAN, mcs=100",SUBST-R,0
+19,1019,"12 blobs, k_max=10",12,Silhouette,RANGE,10
+19,1019,"12 blobs, k_max=10",12,Calinski-Harabasz,RANGE,10
+19,1019,"12 blobs, k_max=10",12,Gap statistic,RANGE,6
+19,1019,"12 blobs, k_max=10",12,BIC (spherical GMM),RANGE,10
+19,1019,"12 blobs, k_max=10",12,"DP-means, lambda=16",SUBST-D,16
+19,1019,"12 blobs, k_max=10",12,"Mean shift, h=1.5",SUBST-D,21
+19,1019,"12 blobs, k_max=10",12,"DBSCAN, eps=0.8",SUBST-D,13
+19,1019,"12 blobs, k_max=10",12,"G-means, alpha=0.05",SUBST-C,12
+19,1019,"12 blobs, k_max=10",12,"G-means, alpha=1e-4",SUBST-C,12
+19,1019,"12 blobs, k_max=10",12,"HDBSCAN, mcs=10",SUBST-R,12
+19,1019,"12 blobs, k_max=10",12,"HDBSCAN, mcs=100",SUBST-R,0
