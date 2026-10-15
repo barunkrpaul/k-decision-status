@@ -2,7 +2,7 @@
 
 Data and code for the review article:
 
-> Paul, B. K. and Giri, K. *Determining the Number of Clusters in K-means and Related Methods: A Critical Review and a Decision-Status Taxonomy, 2016–2026.* Manuscript submitted to *Artificial Intelligence Review* (Springer Nature).
+> Paul, B. K. and Giri, K. *How Automatic Is "Automatic" Clustering? A Critical Review and Decision-Status Taxonomy for Choosing $k$ in K-Means and Related Methods.* Manuscript submitted to *Artificial Intelligence Review* (Springer Nature).
 
 The repository holds the coded corpus of 110 methods, the code of the worked demonstration (Section 6 of the article) and its raw results. These files are the same as Online Resources 2 to 4 of the article.
 
