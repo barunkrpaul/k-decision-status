@@ -62,7 +62,7 @@ The rulebook used to assign the status is Section S1 of Online Resource 1 of the
 
 ## Licence
 
-Code: MIT licence (see `LICENSE`). Data and results: Creative Commons Attribution 4.0 (CC BY 4.0).
+Code and Data : MIT licence (see `LICENSE`) for all files.
 
 ## How to cite
 
