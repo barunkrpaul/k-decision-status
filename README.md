@@ -4,7 +4,7 @@ Data and code for the review article:
 
 > Paul, B. K. and Giri, K. *How Automatic Is "Automatic" Clustering? A Critical Review and Decision-Status Taxonomy for Choosing k in K-Means and Related Methods (2016–2026).* Manuscript submitted to *Artificial Intelligence Review* (Springer Nature).
 
-The repository holds the coded corpus of 110 methods, the code of the worked demonstration (Section 6 of the article) and its raw results, and the second-coding sheet used for the reliability check of the coding (Section 2.4). These files are the same as Online Resources 2 to 4 of the article. Archived copy: https://doi.org/10.5281/zenodo.23401858
+The repository holds the coded corpus of 110 methods, the code of the worked demonstration (Section 6 of the article) and its raw results, and the second-coding sheet used for the reliability check of the coding (Section 2.4). These files are the same as Online Resources 2 to 4 of the article. Archived copy: https://doi.org/10.5281/zenodo.23401857
 
 ## Contents
 
