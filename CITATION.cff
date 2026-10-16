@@ -1,17 +1,23 @@
 cff-version: 1.2.0
 message: "If you use these data or this code, please cite the article."
 title: "Decision status of methods for choosing k in K-means: data and code"
+version: "1.1.0"
+date-released: "2026-10-16"
+doi: 10.5281/zenodo.23401858
+repository-code: "https://github.com/barunkrpaul/k-decision-status"
 authors:
   - family-names: Paul
     given-names: Barun Kr.
+    orcid: "https://orcid.org/0009-0003-4304-5081"
     affiliation: "National Institute of Technical Teachers' Training and Research (NITTTR) Kolkata; Srikrishna College, Bagula"
   - family-names: Giri
     given-names: Kinsuk
+    orcid: "https://orcid.org/0000-0003-2671-3079"
     affiliation: "National Institute of Technical Teachers' Training and Research (NITTTR) Kolkata"
 license: MIT
 preferred-citation:
   type: article
-  title: "Determining the Number of Clusters in K-means and Related Methods: A Critical Review and a Decision-Status Taxonomy, 2016-2026"
+  title: "How Automatic Is \"Automatic\" Clustering? A Critical Review and Decision-Status Taxonomy for Choosing k in K-Means and Related Methods (2016-2026)"
   authors:
     - family-names: Paul
       given-names: Barun Kr.

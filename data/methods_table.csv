@@ -1,111 +1,111 @@
-row,method,year,refs,family,family_name,setting,decision_rule,status,subst_type,upper_bound,can_return_k1,user_inputs,status_original,basis,note
-1,Silhouette,1987,Rousseeuw1987silhouettes,1,Validity-index extremum,batch,"argmax over k of mean (b_i-a_i)/max(a_i,b_i)",RANGE,,Y,N,k_max,RANGE,T,
-2,Calinski--Harabasz,1974,Calinski1974dendrite,1,Validity-index extremum,batch,argmax of between/within variance ratio,RANGE,,Y,N,k_max,RANGE,T,
-3,Davies--Bouldin,1979,Davies1979cluster,1,Validity-index extremum,batch,argmin of mean worst-case similarity,RANGE,,Y,N,k_max,RANGE,T,
-4,Xie--Beni,1991,Xie1991validity,1,Validity-index extremum,batch,argmin compactness/min-separation,RANGE,,Y,N,"k_max, fuzzifier",RANGE,T,
-5,S_Dbw,2001,Halkidi2001clustering,1,Validity-index extremum,batch,argmin scatter + inter-density,RANGE,,Y,N,k_max,RANGE,T,
-6,CVNN,2013,Liu2013understanding,1,Validity-index extremum,batch,argmin nearest-neighbour based compact/separation,RANGE,,Y,N,"k_max, NN size",RANGE,T,
-7,BWC index,2021,Zhou2021estimating,1,Validity-index extremum,batch,peak of between-within index over range,RANGE,,Y,N,k_max,RANGE,T,
-8,ANSNN index,2023,Duan2023novel,1,Validity-index extremum,batch,optimise augmented non-shared-NN index,RANGE,,Y,N,"k_max, NN size",RANGE,T,
-9,ECVI ensemble,2023,Sowan2023ensembling,1,Validity-index extremum,batch,ensemble of SIL/DB/CH/Gap over range,RANGE,,Y,?,"k_max, weights",RANGE,T,
-10,Absolute indices,2025,Bagirov2026absolute,1,Validity-index extremum,batch,max of compactness+separability in 2-D decision space,RANGE,,Y,?,"varepsilon, eta, mu, k_max",RANGE,T,
-11,MPV,2025,He2025mpv,1,Validity-index extremum,batch,argmax_k[mathrmMPV(k)-mathrmMPV(k-1)],RANGE,,Y,N,"d_c, k_max",RANGE,S,argmax of MPV(k)-MPV(k-1) from k=2
-12,Medoid Silhouette (DynMSC),2024,Lenssen2024medoid,1,Validity-index extremum,batch,"decrement k from k_max , keep best AMS",RANGE,,Y,N,"k_max, restarts",RANGE,T,
-13,Macro-averaged Silhouette,2025,Pavlopoulos2025revisiting,1,Validity-index extremum,batch,per-cluster then average; corrects size bias,RANGE,,Y,N,k_max,RANGE,T,
-14,Calibrated aggregation,2020,Akhanli2020comparing,1,Validity-index extremum,batch,aggregate calibrated indices; user weights,RANGE,,Y,?,"weights, #random clusterings",RANGE,T,
-15,Elbow (SSE bend),1953,Thorndike1953;Schubert2023stop,2,Objective-curve feature,batch,visual bend in J(k),RANGE,,Y,N,"k_max, judgement",RANGE,T,bend read by eye
-16,L-method,2004,Salvador2004determining,2,Objective-curve feature,batch,min length-weighted two-line RMSE,RANGE,,Y,N,none claimed,RANGE,T,
-17,Kneedle,2011,Satopaa2011finding,2,Objective-curve feature,batch,max distance from head-tail chord,RANGE,,Y,N,sensitivity S,RANGE,T,
-18,Jump statistic,2003,Sugar2003finding,2,Objective-curve feature,batch,argmax_k(d_k^-Y-d_k-1^-Y),RANGE,,Y,Y,"Y, k_max",RANGE,S,distortion is per-dimension Mahalanobis; Y=p/2
-19,AutoElbow,2022,Onumanyi2022autoelbow,2,Objective-curve feature,batch,max ratio of squared distances to 3 refs,RANGE,,Y,N,K (max),RANGE,T,
-20,Angle-based elbow,2021,Shi2021quantitative,2,Objective-curve feature,batch,min interior angle by law of cosines,RANGE,,Y,N,"K_max=lfloorsqrtNrfloor+1, scale [0,10]",RANGE,T,
-21,LOG-Means,2020/22,Fritz2020log;Fritz2022efficient,2,Objective-curve feature,batch,binary search on SSE ratio,RANGE,,Y,?,"k_low, k_high, varepsilon",RANGE,T,"binary search inside [k_low,k_high]"
-22,ElbowSig,2026,PerezReche2026elbow,3,Null-reference comparison,batch,significant peaks of -Delta^2H_k/Delta H_k vs null,RANGE,,Y,?,"alpha, #resamples, k_max",RANGE,T,returns all significant scales
-23,Gap statistic,2001,Tibshirani2001estimating,3,Null-reference comparison,batch,smallest k with mathrmGap(k)gemathrmGap(k+1)-s_k+1,RANGE,,Y,Y,"B, k_max, ref. model",RANGE,S,
-24,Enhanced Gap Statistic,2024,Khan2024determining,3,Null-reference comparison,batch,exponential-standardised reference + adjustment,RANGE,,Y,?,"B, k_max",RANGE,T,
-25,M3C,2020,John2020m,3,Null-reference comparison,batch,min significant Monte-Carlo p_k vs K=1 null,RANGE,,Y,Y,"B=100, H=100, maxK, PAC window",RANGE,S,
-26,Prediction strength,2005,Tibshirani2005cluster,4,Agreement under resampling,batch,largest k with ps(k)ge threshold,RANGE,,Y,Y,"threshold approx0.8, splits",RANGE,T,threshold on prediction strength
-27,Bootstrap instability,2012,Fang2012selection,4,Agreement under resampling,batch,argmin_k bootstrap instability,RANGE,,Y,N,"B, k_max",RANGE,T,
-28,Corrected instability,2020,Haslbeck2020estimating,4,Agreement under resampling,batch,argmin_k of (d-c_1)/c_2,RANGE,,Y,N,"B=100, K=50",RANGE,T,
-29,Stability trade-off,2023,Mourer2023selecting,4,Agreement under resampling,batch,high between-stability + low within-partitionability,RANGE,,Y,?,"resamples, k_max",RANGE,T,
-30,Cross-validated k,2020,Fu2020estimating,4,Agreement under resampling,batch,min internal prediction error,RANGE,,Y,?,"folds, k_max",RANGE,T,
-31,CARVE,2026,Wycik2026cluster,4,Agreement under resampling,batch,1-SE rule on stability+generalisability,RANGE,,Y,?,"B, rho, classifier, grid",RANGE,T,
-32,Consensus clustering,2003,Monti2003consensus,4,Agreement under resampling,batch,Delta(K) area of consensus CDF,RANGE,,Y,N,"resamples, K range",RANGE,T,
-33,Evidence accumulation,2005,Fred2005combining,6,Hierarchy structure,batch,max-lifetime cut of co-association dendrogram,SUBST,R,N,Y,"ensemble size, linkage",AUTO,S*,k of the base K-means runs is user-set
-34,Density peaks (DPC),2014,Rodriguez2014clustering,5,Density modes and level sets,batch,"human reads (rho, delta) decision graph",NOT-AUTO,,N,?,"d_c, manual centres",NOT-AUTO,T,centres chosen by a person from the decision graph
-35,OPTICS,1999,Ankerst1999optics,5,Density modes and level sets,batch,valleys of reachability plot / xi cut,SUBST,D,N,?,"varepsilon, MinPts, xi",SUBST,T,
-36,HDBSCAN,2015,Campello2015hierarchical,6,Hierarchy structure,batch,excess-of-mass antichain DP over condensed tree,SUBST,R,N,N,"m_pts, min cluster size",SUBST,S,one cluster only if allow_single_cluster is set
-37,Accelerated HDBSCAN,2017,McInnes2017accelerated,6,Hierarchy structure,batch,"as HDBSCAN, dual-tree Boruvka",SUBST,R,N,N,"min_samples, min_cluster_size, method",SUBST,S,one cluster only if allow_single_cluster is set
-38,HDBSCAN(hatvarepsilon),2020,Malzer2020hybrid,6,Hierarchy structure,batch,first cluster born above hatvarepsilon,SUBST,D,N,N,"minPts, min size, hatvarepsilon",SUBST,T,
-39,Mean shift,2002,Comaniciu2002mean,5,Density modes and level sets,batch,count of distinct modes after merging,SUBST,D,N,Y,"bandwidth h, merge tol.",SUBST,T,
-40,Modal clustering (AEDM bw.),2020,Casa2020modal,5,Density modes and level sets,batch,modes of KDE at AEDM-minimising bandwidth,AUTO,,N,Y,"kernel, pilot estimates",SUBST,T,bandwidth from a clustering loss; kernel and pilot fixed
-41,Skinny-dip / UniDip,2016,Maurus2016skinny,13,Split or merge rule,batch,recursive dip-test modal intervals per axis,SUBST,C,N,Y,alpha (dip level),AUTO,S,dip significance level
-42,DPSM (density propagation),2024,Nie2024clustering,5,Density modes and level sets,batch,stop merging when CluCut drops below half,SUBST,R,N,?,5 constants incl. 0.5 ratio,SUBST,T,fixed ratios in the decision rule
-43,Border-peeling,2020,AverbuchElor2020border,5,Density modes and level sets,batch,change-point in density-influence ratio,SUBST,R,N,?,"C=3, min size, k=20",SUBST,T,fixed ratios in the decision rule
-44,Adaptive DPC (Delaunay),2025,Wei2025adaptive,5,Density modes and level sets,batch,prune edges > half mean length; merge while index improves,SUBST,R,N,?,"hard-coded 0.5, index choice",SUBST,T,fixed ratios in the decision rule
-45,ADPC (DDC index),2023,Xu2023automatic,5,Density modes and level sets,batch,cutoff d_c maximising a bespoke index,RANGE,,Y,?,"index form, grid",RANGE,T,search over a control parameter within user bounds
-46,Unimodal DBSCAN tuning,2025,Nir2025unimodal,5,Density modes and level sets,batch,ternary search for peak of k(varepsilon),RANGE,,Y,?,"MinPts, search bounds",SUBST,T,search over a control parameter within user bounds
-47,Natural neighbour,2016,Zhu2016natural,7,Neighbour or proximity graph,batch,"stable-state radius (eliminates K, not k)",N/A,,N,,none,NOT-AUTO,T,"returns a neighbourhood size, not a cluster count"
-48,FINCH,2019,Sarfraz2019efficient,7,Neighbour or proximity graph,batch,connected components of first-neighbour graph,AUTO-SET,,N,Y,none (choose level),AUTO-SET,T,returns a hierarchy of partitions
-49,CutESC,2019,Aksac2019cutesc,7,Neighbour or proximity graph,batch,components after local statistical edge cut,AUTO,,N,?,hard-coded cut rule (2 optional),SUBST,T,fixed cut rule; optional two-parameter mode
-50,ToMATo,2013,Chazal2013persistence,8,Topological persistence,batch,count of peaks above prominence tau,SUBST,D,N,?,"tau, graph, KDE bandwidth",SUBST,T,prominence threshold read from a diagram
-51,ToMAToMP,2026,Andrianirina2026tomatomp,8,Topological persistence,batch,multi-parameter persistence above tau,SUBST,D,N,?,"f_1..f_p, line family, tau",SUBST,T,prominence threshold read from a diagram
-52,MCF,2023--,Schindler2023analysing,8,Topological persistence,batch,measures hierarchy/conflict across partitions,N/A,,N,,input partition sequence,n/a,T,diagnostic of a partition sequence
-53,Eigengap heuristic,2007,Luxburg2007tutorial,9,Operator spectrum,batch,argmax_i(lambda_i+1-lambda_i),SUBST,D,N,Y,"sigma, graph type, normalisation",SUBST,T,graph scale and construction
-54,Self-tuning spectral,2004,ZelnikManor2004self,9,Operator spectrum,batch,largest C with near-minimal rotation cost,RANGE,,Y,N,"C_max, 7th-NN scale",RANGE,T,
-55,Multiscale spectral (random walk),2006,Azran2006spectral,9,Operator spectrum,batch,local maxima of Delta(M) over walk length,AUTO-SET,,N,?,"sigma (learned), stopping",AUTO-SET,S,one partition per local maximum
-56,Bethe Hessian,2014,Saade2014spectral,9,Operator spectrum,batch,#negative eigenvalues of H(r_c),AUTO,,N,?,none (r_c computed),AUTO,T,input is a graph
-57,Le and Levina estimators,2022,Le2022estimating,9,Operator spectrum,batch,"NB/BH eigenvalue counts, t=5 in corrected form",AUTO,,N,?,none (or t),AUTO,S,input is a graph; t=5 fixed in corrected form
-58,Approx. spectral + self-tuned k,2019,Alshammari2019,9,Operator spectrum,batch,max of DBI+eigenvalue-sum metric,RANGE,,Y,N,"GNG size, 80% var., mupmsigma, DBI range",RANGE,T,
-59,CLR / CAN (rank constraint),2014/16,Nie2016constrained;Nie2014clustering,9,Operator spectrum,batch,learns graph with exactly k components,NOT-AUTO,,N,N,"k, lambda, NN size",NOT-AUTO,T,
-60,Parameter-light spectral (text),2025,Neveditsin2025scalable,9,Operator spectrum,batch,first tail position exceeding adaptive threshold,SUBST,R,N,?,"window w=3, cap tau, fallback",SUBST,T,fallback returns k=5
-61,ISODATA,1965,Ball1965isodata;Memarsadeghi2007fast,13,Split or merge rule,batch,"split if v_j,max>sigma_max; merge if d_ijle L_min",SUBST,D,N,?,6 thresholds,SUBST,T,thresholds in data units
-62,Bisecting k-means,2000,Steinbach2000comparison,0,None (k is an input),batch,repeatedly bisect until target k,NOT-AUTO,,N,N,"ITER, split heuristic",NOT-AUTO,T,retained as a baseline for k-path methods
-63,Global k-means,2003,Likas2003global,0,None (k is an input),batch,builds k from k-1; no k rule,NOT-AUTO,,N,N,M,NOT-AUTO,T,retained as a baseline for k-path methods
-64,X-means,2000,Pelleg2000x,10,Penalised likelihood or objective,batch,split iff local BIC(children) > BIC(parent),RANGE,,Y,?,"k_min,k_max, cutoff",RANGE,S,"returns best-BIC model in [k_min,k_max]"
-65,G-means,2003,Hamerly2003learning,13,Split or merge rule,batch,split iff A^*2ge1.8692 (alpha=10^-4),SUBST,C,N,Y,alpha,SUBST,S,per-test significance level
-66,PG-means,2006,Feng2006pg,13,Split or merge rule,batch,add a component while any projection rejects,SUBST,C,N,Y,"alpha, p=12, restarts",SUBST,T,per-test significance level
-67,Dip-means,2012,Kalogeratos2012dip,13,Split or merge rule,batch,split max-score cluster while viewers reject,SUBST,C,N,Y,"alpha, b=1000, v_thd",SUBST,S,per-test significance level
-68,Projected dip-means,2018,Chamalis2018projected,13,Split or merge rule,batch,dip on 2d axes; split highest score,SUBST,C,N,Y,"alpha, b, restarts",SUBST,T,per-test significance level
-69,mp-means (mud-pod),2025,Kolyvakis2025multivariate,13,Split or merge rule,batch,split while multivariate unimodality rejected,SUBST,C,N,Y,"M=100, alpha=0.01, varepsilon",SUBST,S,per-test significance level
-70,UniForCE,2026,Vardakas2026uniforce,13,Split or merge rule,batch,#trees of min. spanning forest of unimodality graph,SUBST,C,N,?,"K'=50, M=25, alpha, L=11",AUTO,S,also over-clustering budget K'
-71,K-Splits,2022,Mohammadi2022k,13,Split or merge rule,batch,split max tanh(Q_C/mathrmthr)lambda_1^C; stop at d/d_baselebeta,SUBST,R,N,?,beta (no rule given),SUBST,S,stopping ratio beta
-72,K-means Cloning,2018,Hedar2018k,1,Validity-index extremum,batch,"silhouette peak over Klemin(20,sqrtn)",RANGE,,Y,N,"K_max, annealing",RANGE,T,"cannot exceed min(20, sqrt n)"
-73,Merging k-means solutions,2020,Melnykov2020clustering,6,Hierarchy structure,batch,agglomerate by pairwise overlap; stop by inspection,NOT-AUTO,,N,?,"linkage, overlap model",NOT-AUTO,T,stopping point chosen by a person
-74,MML component annihilation,2002,Figueiredo2002unsupervised,11,Code length,batch,components with insufficient support are annihilated,AUTO,,Y,Y,"k_max, family",SUBST,T,starts from k_max components
-75,CNMBI,2023,Zhang2023CNMBI,4,Agreement under resampling,batch,bipartite matching stability of centres + boundary filtering,RANGE,,Y,N,not retrievable,RANGE,S,argmin over k=2..sqrt n
-76,k^{*}-means,2025,Mahon2025k,11,Code length,batch,split if Delta Q>2N/(k+1); merge if tfrac12Delta Q-N/k<0,AUTO,,N,Y,none core (precision m),AUTO,S*,fixed coding constants; not scale-invariant
-77,Regularised k-means,2025,KamgarParsi2025,10,Penalised likelihood or objective,batch,min J(k)+lambda k with derived lambda bounds,RANGE,,Y,N,lambda (or multiplicative form),SUBST,S,k=2..M
-78,CVFLDA,2025,Kachele2025cluster,13,Split or merge rule,batch,"merge pair unless S^2(s)+lambda,SD(s)<S^2(m)",SUBST,R,Y,Y,"lambda, initial over-k",AUTO,S,lambda multiplies a standard deviation
-79,U-k-means,2020,Sinaga2020,10,Penalised likelihood or objective,batch,"entropy-penalised objective, simultaneous k",AUTO,,N,?,claimed none,AUTO,S,fixed schedules in the update rules
-80,SpecialK,2019,Hess2020,13,Split or merge rule,batch,bound on prob. two clusters share one distribution,SUBST,C,N,Y,none stated,AUTO,S,significance level; embedding dimension
-81,Chebyshev auto-range,2022,Olukanmi2022automatic,13,Split or merge rule,batch,1sigma/2sigma tests on existing distance vector,AUTO-SET,,N,?,none beyond k-means,RANGE,S*,two estimates used as bounds
-82,DP-means,2012,Kulis2012revisiting,10,Penalised likelihood or objective,batch,new cluster iff min_c|x-mu_c|^2>lambda,SUBST,D,N,Y,lambda,SUBST,T,penalty in squared data units
-83,PDC-DP-means,2022,Dinari2022revisiting,10,Penalised likelihood or objective,batch,"as DP-means, delayed creation, parallel",SUBST,D,N,Y,"lambda, partitions, batch",SUBST,T,penalty in squared data units
-84,Variational DPM,2006,Blei2006variational,12,Posterior over partitions,batch,occupied components below truncation T,SUBST,P,Y,Y,"alpha, T, base measure",SUBST,T,truncation level T
-85,MFM / telescoping sampler,2018/21,Miller2018mixture;FruhwirthSchnatter2021generalized,12,Posterior over partitions,batch,posterior of occupied components K_+,SUBST,P,N,Y,"p(K), gamma, base measure",SUBST,T,prior on K and base measure
-86,Sparse finite mixtures,2016,MalsinerWalli2016model,12,Posterior over partitions,batch,non-empty components at fixed large K,SUBST,P,Y,Y,"e_0, K",RANGE,T,Dirichlet weight e0 at fixed large K
-87,Merge-truncate-merge,2021,Guha2021posterior,12,Posterior over partitions,batch,merge atoms closer than ctimescontraction rate,SUBST,R,N,?,"c, known contraction rate",AUTO,S,constant c and contraction rate
-88,ICL,2000,Biernacki2000,10,Penalised likelihood or objective,batch,argmin BIC + classification entropy,RANGE,,Y,Y,"k_max, covariance family",RANGE,T,
-89,sBIC (singular),2017,Drton2017bayesian,10,Penalised likelihood or objective,batch,penalty by real log-canonical thresholds,RANGE,,Y,Y,"model set, lambda_K",RANGE,T,
-90,Group-Sort-Fuse,2021,Manole2021estimating,10,Penalised likelihood or objective,batch,#distinct fused atoms at K_max,RANGE,,Y,?,"K_max, lambda_n, penalty",RANGE,S,lambda chosen by BIC over a grid below K
-91,Renormalised NML,2013,Hirai2013efficient,11,Code length,batch,min renormalised code length over K,RANGE,,Y,?,"R_1,R_2,lambda_1,lambda_2, K range",RANGE,T,
-92,Lossy coding length,2007,Ma2007segmentation,11,Code length,batch,merge while total coding length decreases,SUBST,D,N,Y,distortion varepsilon,SUBST,T,distortion level
-93,Corrected relevant information,2004,Still2004how,11,Code length,batch,"max of I^emp-tfracK_v2ln 2,NN_c",RANGE,,Y,Y,"binning K_v, relevance var.",AUTO-SET,S,maximum over the cluster numbers evaluated
-94,ACDE (activation thresholds),2008,Das2008automatic,14,Metaheuristic search,batch,#activations above threshold; CVI fitness,RANGE,,Y,N,"k_min,k_max, CVI, thresh., pop.",RANGE,T,
-95,Variable-length GA,2002,Bandyopadhyay2002genetic,14,Metaheuristic search,batch,chromosome length is k; CVI fitness,RANGE,,Y,N,"k_min,k_max, GA params",RANGE,T,
-96,MOCK,2007,Handl2007evolutionary,15,Multi-objective trade-off,batch,components of decoded graph; null control fronts,RANGE,,Y,?,"pop., archive, L, control fronts",AUTO,S*,initial partitions with k<=25 (author slides)
-97,Delta-MOCK,2018,GarzaFabre2018improved,15,Multi-objective trade-off,batch,as MOCK with reduced encoding,RANGE,,Y,?,#free links (soft k_max),AUTO,S,k_max bounds initialisation (2k* in experiments)
-98,DeepDPM,2022,Ronen2022deepdpm,16,Learned representation,deep,Metropolis--Hastings ratio split/merge in latent space,SUBST,P,N,?,"alpha, NIW prior, init K, schedule",AUTO,S,concentration and NIW prior
-99,DipDECK,2021,Leiber2021dip,16,Learned representation,deep,merge pairs whose union passes the dip test,SUBST,C,Y,Y,"k_init, dip threshold, network",AUTO,S,dip merge threshold; initial over-count
-100,UNSEEN,2024,Leiber2024dying,16,Learned representation,deep,remove cluster when size <ttimes creation size,SUBST,R,Y,?,"t=0.5, k_init, epochs",SUBST,T,decay fraction t
-101,GCD estimator,2022,Vaze2022generalized,1,Validity-index extremum,deep,"max labelled-subset accuracy (Hungarian), Brent search",SUPERVISED,,Y,N,"labelled subset, backbone",SUBST,S,"labelled-subset accuracy; range [|Y_L|,1000]"
-102,SCMax (NNC),2026,Zhang2026parameter,4,Agreement under resampling,deep,argmax nearest-neighbour consensus under perturbation,AUTO,,N,N,"autoencoder architecture, epochs",AUTO,S,selects among hierarchy levels; fixed training settings
-103,CEDAS,2017,Hyde2017fully,7,Neighbour or proximity graph,stream,components of micro-cluster graph,SUBST,D,N,?,"global radius, decay",SUBST,T,
-104,BOCEDS,2019,Islam2019buffer,7,Neighbour or proximity graph,stream,radius updated toward local optimum,SUBST,D,N,?,"initial radius, buffer thresholds",AUTO,S*,"radius bounds R_min, R_max"
-105,EDMStream,2017,Gong2017clustering,5,Density modes and level sets,stream,peaks surviving threshold on dependency tree,SUBST,D,N,?,density + dependent-distance thresholds,SUBST,T,density and distance thresholds
-106,H-NGPCA,2026,Migenda2026h,13,Split or merge rule,stream,split when unborn children outperform parent,SUBST,R,N,?,five parameters,SUBST,S,split delay and hysteresis
-107,SSCE (subspace ensemble),2025,Mahmud2025,4,Agreement under resampling,batch,"ensemble vote over per-subspace, per-sample hat k",UNRESOLVED,,?,?,"#subspaces, block sizes",AUTO,S*,per-subspace k by AICc model choice; bound not confirmed
-108,Similarity-matrix susceptibility,2023,Lippiello2023determining,9,Operator spectrum,batch,#blocks from susceptibility of similarity matrix,UNRESOLVED,,?,?,kernel and its bandwidth,AUTO,T,full text not accessed
-109,Depth difference (DeD),2019,Patil2019estimating,1,Validity-index extremum,batch,max depth-within minus depth-between,RANGE,,Y,N,depth function,AUTO,S,user range k=2..20
-110,Graph-based high-d statistic,2024,Bai2024graph,7,Neighbour or proximity graph,batch,similarity-graph statistic with selection consistency,RANGE,,Y,N,graph construction,AUTO,S,argmax over k=2..K
+row,method,year,refs,family,family_name,setting,decision_rule,status,subst_type,upper_bound,can_return_k1,user_inputs,note,coder_disagreement
+1,Silhouette,1987,Rousseeuw1987silhouettes,1,Validity-index extremum,batch,"argmax over k of mean (b_i-a_i)/max(a_i,b_i)",RANGE,,Y,N,k_max,,
+2,Calinski--Harabasz,1974,Calinski1974dendrite,1,Validity-index extremum,batch,argmax of between/within variance ratio,RANGE,,Y,N,k_max,,
+3,Davies--Bouldin,1979,Davies1979cluster,1,Validity-index extremum,batch,argmin of mean worst-case similarity,RANGE,,Y,N,k_max,,
+4,Xie--Beni,1991,Xie1991validity,1,Validity-index extremum,batch,argmin compactness/min-separation,RANGE,,Y,N,"k_max, fuzzifier",,
+5,S_Dbw,2001,Halkidi2001clustering,1,Validity-index extremum,batch,argmin scatter + inter-density,RANGE,,Y,N,k_max,,N
+6,CVNN,2013,Liu2013understanding,1,Validity-index extremum,batch,argmin nearest-neighbour based compact/separation,RANGE,,Y,N,"k_max, NN size",,
+7,BWC index,2021,Zhou2021estimating,1,Validity-index extremum,batch,peak of between-within index over range,RANGE,,Y,N,k_max,,
+8,ANSNN index,2023,Duan2023novel,1,Validity-index extremum,batch,optimise augmented non-shared-NN index,RANGE,,Y,N,"k_max, NN size",,
+9,ECVI ensemble,2023,Sowan2023ensembling,1,Validity-index extremum,batch,ensemble of SIL/DB/CH/Gap over range,RANGE,,Y,?,"k_max, weights",,N
+10,Absolute indices,2025,Bagirov2026absolute,1,Validity-index extremum,batch,max of compactness+separability in 2-D decision space,RANGE,,Y,?,"varepsilon, eta, mu, k_max",,
+11,MPV,2025,He2025mpv,1,Validity-index extremum,batch,argmax_k[mathrmMPV(k)-mathrmMPV(k-1)],RANGE,,Y,N,"d_c, k_max",argmax of MPV(k)-MPV(k-1) from k=2,N
+12,Medoid Silhouette (DynMSC),2024,Lenssen2024medoid,1,Validity-index extremum,batch,"decrement k from k_max , keep best AMS",RANGE,,Y,N,"k_max, restarts",,
+13,Macro-averaged Silhouette,2025,Pavlopoulos2025revisiting,1,Validity-index extremum,batch,per-cluster then average; corrects size bias,RANGE,,Y,N,k_max,,
+14,Calibrated aggregation,2020,Akhanli2020comparing,1,Validity-index extremum,batch,aggregate calibrated indices; user weights,RANGE,,Y,?,"weights, #random clusterings",,N
+15,Elbow (SSE bend),1953,Thorndike1953;Schubert2023stop,2,Objective-curve feature,batch,visual bend in J(k),RANGE,,Y,N,"k_max, judgement",bend read by eye,
+16,L-method,2004,Salvador2004determining,2,Objective-curve feature,batch,min length-weighted two-line RMSE,RANGE,,Y,N,none claimed,,
+17,Kneedle,2011,Satopaa2011finding,2,Objective-curve feature,batch,max distance from head-tail chord,RANGE,,Y,N,sensitivity S,,N
+18,Jump statistic,2003,Sugar2003finding,2,Objective-curve feature,batch,argmax_k(d_k^-Y-d_k-1^-Y),RANGE,,Y,Y,"Y, k_max",distortion is per-dimension Mahalanobis; Y=p/2,
+19,AutoElbow,2022,Onumanyi2022autoelbow,2,Objective-curve feature,batch,max ratio of squared distances to 3 refs,RANGE,,Y,N,K (max),,N
+20,Angle-based elbow,2021,Shi2021quantitative,2,Objective-curve feature,batch,min interior angle by law of cosines,RANGE,,Y,N,"K_max=lfloorsqrtNrfloor+1, scale [0,10]",,
+21,LOG-Means,2020/22,Fritz2020log;Fritz2022efficient,2,Objective-curve feature,batch,binary search on SSE ratio,RANGE,,Y,?,"k_low, k_high, varepsilon","binary search inside [k_low,k_high]",
+22,ElbowSig,2026,PerezReche2026elbow,3,Null-reference comparison,batch,significant peaks of -Delta^2H_k/Delta H_k vs null,RANGE,,Y,?,"alpha, #resamples, k_max",returns all significant scales,Y
+23,Gap statistic,2001,Tibshirani2001estimating,3,Null-reference comparison,batch,smallest k with mathrmGap(k)gemathrmGap(k+1)-s_k+1,RANGE,,Y,Y,"B, k_max, ref. model",,
+24,Enhanced Gap Statistic,2024,Khan2024determining,3,Null-reference comparison,batch,exponential-standardised reference + adjustment,RANGE,,Y,?,"B, k_max",,N
+25,M3C,2020,John2020m,3,Null-reference comparison,batch,min significant Monte-Carlo p_k vs K=1 null,RANGE,,Y,Y,"B=100, H=100, maxK, PAC window",,
+26,Prediction strength,2005,Tibshirani2005cluster,4,Agreement under resampling,batch,largest k with ps(k)ge threshold,RANGE,,Y,Y,"threshold approx0.8, splits",threshold on prediction strength,
+27,Bootstrap instability,2012,Fang2012selection,4,Agreement under resampling,batch,argmin_k bootstrap instability,RANGE,,Y,N,"B, k_max",,
+28,Corrected instability,2020,Haslbeck2020estimating,4,Agreement under resampling,batch,argmin_k of (d-c_1)/c_2,RANGE,,Y,N,"B=100, K=50",,
+29,Stability trade-off,2023,Mourer2023selecting,4,Agreement under resampling,batch,high between-stability + low within-partitionability,RANGE,,Y,?,"resamples, k_max",,
+30,Cross-validated k,2020,Fu2020estimating,4,Agreement under resampling,batch,min internal prediction error,RANGE,,Y,?,"folds, k_max",,
+31,CARVE,2026,Wycik2026cluster,4,Agreement under resampling,batch,1-SE rule on stability+generalisability,RANGE,,Y,?,"B, rho, classifier, grid",,
+32,Consensus clustering,2003,Monti2003consensus,4,Agreement under resampling,batch,Delta(K) area of consensus CDF,RANGE,,Y,N,"resamples, K range",,
+33,Evidence accumulation,2005,Fred2005combining,6,Hierarchy structure,batch,max-lifetime cut of co-association dendrogram,SUBST,R,N,Y,"ensemble size, linkage",k of the base K-means runs is user-set,
+34,Density peaks (DPC),2014,Rodriguez2014clustering,5,Density modes and level sets,batch,"human reads (rho, delta) decision graph",NOT-AUTO,,N,?,"d_c, manual centres",centres chosen by a person from the decision graph,
+35,OPTICS,1999,Ankerst1999optics,5,Density modes and level sets,batch,valleys of reachability plot / xi cut,SUBST,D,N,?,"varepsilon, MinPts, xi",,Y
+36,HDBSCAN,2015,Campello2015hierarchical,6,Hierarchy structure,batch,excess-of-mass antichain DP over condensed tree,SUBST,R,N,N,"m_pts, min cluster size",one cluster only if allow_single_cluster is set,
+37,Accelerated HDBSCAN,2017,McInnes2017accelerated,6,Hierarchy structure,batch,"as HDBSCAN, dual-tree Boruvka",SUBST,R,N,N,"min_samples, min_cluster_size, method",one cluster only if allow_single_cluster is set,
+38,HDBSCAN(hatvarepsilon),2020,Malzer2020hybrid,6,Hierarchy structure,batch,first cluster born above hatvarepsilon,SUBST,D,N,N,"minPts, min size, hatvarepsilon",,
+39,Mean shift,2002,Comaniciu2002mean,5,Density modes and level sets,batch,count of distinct modes after merging,SUBST,D,N,Y,"bandwidth h, merge tol.",,
+40,Modal clustering (AEDM bw.),2020,Casa2020modal,5,Density modes and level sets,batch,modes of KDE at AEDM-minimising bandwidth,AUTO,,N,Y,"kernel, pilot estimates",bandwidth from a clustering loss; kernel and pilot fixed,
+41,Skinny-dip / UniDip,2016,Maurus2016skinny,13,Split or merge rule,batch,recursive dip-test modal intervals per axis,SUBST,C,N,Y,alpha (dip level),dip significance level,
+42,DPSM (density propagation),2026,Nie2024clustering,5,Density modes and level sets,batch,stop merging when CluCut drops below half,SUBST,R,N,?,5 constants incl. 0.5 ratio,fixed ratios in the decision rule,N
+43,Border-peeling,2020,AverbuchElor2020border,5,Density modes and level sets,batch,change-point in density-influence ratio,SUBST,R,N,?,"C=3, min size, k=20",fixed ratios in the decision rule,
+44,Adaptive DPC (Delaunay),2025,Wei2025adaptive,5,Density modes and level sets,batch,prune edges > half mean length; merge while index improves,SUBST,R,N,?,"hard-coded 0.5, index choice",fixed ratios in the decision rule,
+45,ADPC (DDC index),2023,Xu2023automatic,5,Density modes and level sets,batch,cutoff d_c maximising a bespoke index,RANGE,,Y,?,"index form, grid",search over a control parameter within user bounds,Y
+46,Unimodal DBSCAN tuning,2025,Nir2025unimodal,5,Density modes and level sets,batch,ternary search for peak of k(varepsilon),RANGE,,Y,?,"MinPts, search bounds",search over a control parameter within user bounds,
+47,Natural neighbour,2016,Zhu2016natural,7,Neighbour or proximity graph,batch,"stable-state radius (eliminates K, not k)",N/A,,N,,none,"returns a neighbourhood size, not a cluster count",N
+48,FINCH,2019,Sarfraz2019efficient,7,Neighbour or proximity graph,batch,connected components of first-neighbour graph,AUTO-SET,,N,Y,none (choose level),returns a hierarchy of partitions,
+49,CutESC,2019,Aksac2019cutesc,7,Neighbour or proximity graph,batch,components after local statistical edge cut,AUTO,,N,?,hard-coded cut rule (2 optional),fixed cut rule; optional two-parameter mode,
+50,ToMATo,2013,Chazal2013persistence,8,Topological persistence,batch,count of peaks above prominence tau,SUBST,D,N,?,"tau, graph, KDE bandwidth",prominence threshold read from a diagram,
+51,ToMAToMP,2026,Andrianirina2026tomatomp,8,Topological persistence,batch,multi-parameter persistence above tau,SUBST,D,N,?,"f_1..f_p, line family, tau",prominence threshold read from a diagram,
+52,MCF,2023--,Schindler2023analysing,8,Topological persistence,batch,measures hierarchy/conflict across partitions,N/A,,N,,input partition sequence,diagnostic of a partition sequence,
+53,Eigengap heuristic,2007,Luxburg2007tutorial,9,Operator spectrum,batch,argmax_i(lambda_i+1-lambda_i),SUBST,D,N,Y,"sigma, graph type, normalisation",graph scale and construction,
+54,Self-tuning spectral,2004,ZelnikManor2004self,9,Operator spectrum,batch,largest C with near-minimal rotation cost,RANGE,,Y,N,"C_max, 7th-NN scale",,N
+55,Multiscale spectral (random walk),2006,Azran2006spectral,9,Operator spectrum,batch,local maxima of Delta(M) over walk length,AUTO-SET,,N,?,"sigma (learned), stopping",one partition per local maximum,
+56,Bethe Hessian,2014,Saade2014spectral,9,Operator spectrum,batch,#negative eigenvalues of H(r_c),AUTO,,N,?,none (r_c computed),input is a graph,
+57,Le and Levina estimators,2022,Le2022estimating,9,Operator spectrum,batch,"NB/BH eigenvalue counts, t=5 in corrected form",AUTO,,N,?,none (or t),input is a graph; t=5 fixed in corrected form,
+58,Approx. spectral + self-tuned k,2019,Alshammari2019,9,Operator spectrum,batch,max of DBI+eigenvalue-sum metric,RANGE,,Y,N,"GNG size, 80% var., mupmsigma, DBI range",,
+59,CLR / CAN (rank constraint),2014/16,Nie2016constrained;Nie2014clustering,9,Operator spectrum,batch,learns graph with exactly k components,NOT-AUTO,,N,N,"k, lambda, NN size",,
+60,Parameter-light spectral (text),2025,Neveditsin2025scalable,9,Operator spectrum,batch,first tail position exceeding adaptive threshold,SUBST,R,N,?,"window w=3, cap tau, fallback",fallback returns k=5,N
+61,ISODATA,1965,Ball1965isodata;Memarsadeghi2007fast,13,Split or merge rule,batch,"split if v_j,max>sigma_max; merge if d_ijle L_min",SUBST,D,N,?,6 thresholds,thresholds in data units,
+62,Bisecting k-means,2000,Steinbach2000comparison,0,None (k is an input),batch,repeatedly bisect until target k,NOT-AUTO,,N,N,"ITER, split heuristic",retained as a baseline for k-path methods,N
+63,Global k-means,2003,Likas2003global,0,None (k is an input),batch,builds k from k-1; no k rule,NOT-AUTO,,N,N,M,retained as a baseline for k-path methods,
+64,X-means,2000,Pelleg2000x,10,Penalised likelihood or objective,batch,split iff local BIC(children) > BIC(parent),RANGE,,Y,?,"k_min,k_max, cutoff","returns best-BIC model in [k_min,k_max]",
+65,G-means,2003,Hamerly2003learning,13,Split or merge rule,batch,split iff A^*2ge1.8692 (alpha=10^-4),SUBST,C,N,Y,alpha,per-test significance level,
+66,PG-means,2006,Feng2006pg,13,Split or merge rule,batch,add a component while any projection rejects,SUBST,C,N,Y,"alpha, p=12, restarts",per-test significance level,
+67,Dip-means,2012,Kalogeratos2012dip,13,Split or merge rule,batch,split max-score cluster while viewers reject,SUBST,C,N,Y,"alpha, b=1000, v_thd",per-test significance level,N
+68,Projected dip-means,2018,Chamalis2018projected,13,Split or merge rule,batch,dip on 2d axes; split highest score,SUBST,C,N,Y,"alpha, b, restarts",per-test significance level,N
+69,mp-means (mud-pod),2025,Kolyvakis2025multivariate,13,Split or merge rule,batch,split while multivariate unimodality rejected,SUBST,C,N,Y,"M=100, alpha=0.01, varepsilon",per-test significance level,
+70,UniForCE,2026,Vardakas2026uniforce,13,Split or merge rule,batch,#trees of min. spanning forest of unimodality graph,SUBST,C,N,?,"K'=50, M=25, alpha, L=11",also over-clustering budget K',
+71,K-Splits,2022,Mohammadi2022k,13,Split or merge rule,batch,split max tanh(Q_C/mathrmthr)lambda_1^C; stop at d/d_baselebeta,SUBST,R,N,?,beta (no rule given),stopping ratio beta,
+72,K-means Cloning,2018,Hedar2018k,1,Validity-index extremum,batch,"silhouette peak over Klemin(20,sqrtn)",RANGE,,Y,N,"K_max, annealing","cannot exceed min(20, sqrt n)",N
+73,Merging k-means solutions,2020,Melnykov2020clustering,6,Hierarchy structure,batch,agglomerate by pairwise overlap; stop by inspection,NOT-AUTO,,N,?,"linkage, overlap model",stopping point chosen by a person,
+74,MML component annihilation,2002,Figueiredo2002unsupervised,11,Code length,batch,components with insufficient support are annihilated,AUTO,,Y,Y,"k_max, family",starts from k_max components,
+75,CNMBI,2023,Zhang2023CNMBI,4,Agreement under resampling,batch,bipartite matching stability of centres + boundary filtering,RANGE,,Y,N,not retrievable,argmin over k=2..sqrt n,
+76,k^{*}-means,2025,Mahon2025k,11,Code length,batch,split if Delta Q>2N/(k+1); merge if tfrac12Delta Q-N/k<0,AUTO,,N,Y,none core (precision m),fixed coding constants; not scale-invariant,N
+77,Regularised k-means,2025,KamgarParsi2025,10,Penalised likelihood or objective,batch,min J(k)+lambda k with derived lambda bounds,RANGE,,Y,N,lambda (or multiplicative form),k=2..M,
+78,CVFLDA,2025,Kachele2025cluster,13,Split or merge rule,batch,"merge pair unless S^2(s)+lambda,SD(s)<S^2(m)",SUBST,R,Y,Y,"lambda, initial over-k",lambda multiplies a standard deviation,
+79,U-k-means,2020,Sinaga2020,10,Penalised likelihood or objective,batch,"entropy-penalised objective, simultaneous k",AUTO,,N,?,claimed none,fixed schedules in the update rules,
+80,SpecialK,2019,Hess2020,13,Split or merge rule,batch,bound on prob. two clusters share one distribution,SUBST,C,N,Y,none stated,significance level; embedding dimension,
+81,Chebyshev auto-range,2022,Olukanmi2022automatic,13,Split or merge rule,batch,1sigma/2sigma tests on existing distance vector,AUTO-SET,,N,?,none beyond k-means,two estimates used as bounds,
+82,DP-means,2012,Kulis2012revisiting,10,Penalised likelihood or objective,batch,new cluster iff min_c|x-mu_c|^2>lambda,SUBST,D,N,Y,lambda,penalty in squared data units,
+83,PDC-DP-means,2022,Dinari2022revisiting,10,Penalised likelihood or objective,batch,"as DP-means, delayed creation, parallel",SUBST,D,N,Y,"lambda, partitions, batch",penalty in squared data units,
+84,Variational DPM,2006,Blei2006variational,12,Posterior over partitions,batch,occupied components below truncation T,SUBST,P,Y,Y,"alpha, T, base measure",truncation level T,
+85,MFM / telescoping sampler,2018/21,Miller2018mixture;FruhwirthSchnatter2021generalized,12,Posterior over partitions,batch,posterior of occupied components K_+,SUBST,P,N,Y,"p(K), gamma, base measure",prior on K and base measure,N
+86,Sparse finite mixtures,2016,MalsinerWalli2016model,12,Posterior over partitions,batch,non-empty components at fixed large K,SUBST,P,Y,Y,"e_0, K",Dirichlet weight e0 at fixed large K,N
+87,Merge-truncate-merge,2021,Guha2021posterior,12,Posterior over partitions,batch,merge atoms closer than ctimescontraction rate,SUBST,R,N,?,"c, known contraction rate",constant c and contraction rate,N
+88,ICL,2000,Biernacki2000,10,Penalised likelihood or objective,batch,argmin BIC + classification entropy,RANGE,,Y,Y,"k_max, covariance family",,
+89,sBIC (singular),2017,Drton2017bayesian,10,Penalised likelihood or objective,batch,penalty by real log-canonical thresholds,RANGE,,Y,Y,"model set, lambda_K",,
+90,Group-Sort-Fuse,2021,Manole2021estimating,10,Penalised likelihood or objective,batch,#distinct fused atoms at K_max,RANGE,,Y,?,"K_max, lambda_n, penalty",lambda chosen by BIC over a grid below K,
+91,Renormalised NML,2013,Hirai2013efficient,11,Code length,batch,min renormalised code length over K,RANGE,,Y,?,"R_1,R_2,lambda_1,lambda_2, K range",,
+92,Lossy coding length,2007,Ma2007segmentation,11,Code length,batch,merge while total coding length decreases,SUBST,D,N,Y,distortion varepsilon,distortion level,
+93,Corrected relevant information,2004,Still2004how,11,Code length,batch,"max of I^emp-tfracK_v2ln 2,NN_c",RANGE,,Y,Y,"binning K_v, relevance var.",maximum over the cluster numbers evaluated,
+94,ACDE (activation thresholds),2008,Das2008automatic,14,Metaheuristic search,batch,#activations above threshold; CVI fitness,RANGE,,Y,N,"k_min,k_max, CVI, thresh., pop.",,
+95,Variable-length GA,2002,Bandyopadhyay2002genetic,14,Metaheuristic search,batch,chromosome length is k; CVI fitness,RANGE,,Y,N,"k_min,k_max, GA params",,N
+96,MOCK,2007,Handl2007evolutionary,15,Multi-objective trade-off,batch,components of decoded graph; null control fronts,RANGE,,Y,?,"pop., archive, L, control fronts",initial partitions with k<=25 (author slides),N
+97,Delta-MOCK,2018,GarzaFabre2018improved,15,Multi-objective trade-off,batch,as MOCK with reduced encoding,RANGE,,Y,?,#free links (soft k_max),k_max bounds initialisation (2k* in experiments),
+98,DeepDPM,2022,Ronen2022deepdpm,16,Learned representation,deep,Metropolis--Hastings ratio split/merge in latent space,SUBST,P,N,?,"alpha, NIW prior, init K, schedule",concentration and NIW prior,
+99,DipDECK,2021,Leiber2021dip,16,Learned representation,deep,merge pairs whose union passes the dip test,SUBST,C,Y,Y,"k_init, dip threshold, network",dip merge threshold; initial over-count,N
+100,UNSEEN,2024,Leiber2024dying,16,Learned representation,deep,remove cluster when size <ttimes creation size,SUBST,R,Y,?,"t=0.5, k_init, epochs",decay fraction t,N
+101,GCD estimator,2022,Vaze2022generalized,1,Validity-index extremum,deep,"max labelled-subset accuracy (Hungarian), Brent search",SUPERVISED,,Y,N,"labelled subset, backbone","labelled-subset accuracy; range [|Y_L|,1000]",N
+102,SCMax (NNC),2026,Zhang2026parameter,4,Agreement under resampling,deep,argmax nearest-neighbour consensus under perturbation,AUTO,,N,N,"autoencoder architecture, epochs",selects among hierarchy levels; fixed training settings,
+103,CEDAS,2017,Hyde2017fully,7,Neighbour or proximity graph,stream,components of micro-cluster graph,SUBST,D,N,?,"global radius, decay",,
+104,BOCEDS,2019,Islam2019buffer,7,Neighbour or proximity graph,stream,radius updated toward local optimum,SUBST,D,N,?,"initial radius, buffer thresholds","radius bounds R_min, R_max",
+105,EDMStream,2017,Gong2017clustering,5,Density modes and level sets,stream,peaks surviving threshold on dependency tree,SUBST,D,N,?,density + dependent-distance thresholds,density and distance thresholds,
+106,H-NGPCA,2026,Migenda2026h,13,Split or merge rule,stream,split when unborn children outperform parent,SUBST,R,N,?,five parameters,split delay and hysteresis,
+107,SSCE (subspace ensemble),2025,Mahmud2025,4,Agreement under resampling,batch,"ensemble vote over per-subspace, per-sample hat k",UNRESOLVED,,?,?,"#subspaces, block sizes",per-subspace k by AICc model choice; bound not confirmed,
+108,Similarity-matrix susceptibility,2023,Lippiello2023determining,9,Operator spectrum,batch,#blocks from susceptibility of similarity matrix,UNRESOLVED,,?,?,kernel and its bandwidth,full text not accessed,Y
+109,Depth difference (DeD),2019,Patil2019estimating,1,Validity-index extremum,batch,max depth-within minus depth-between,RANGE,,Y,N,depth function,user range k=2..20,N
+110,Graph-based high-d statistic,2024,Bai2024graph,7,Neighbour or proximity graph,batch,similarity-graph statistic with selection consistency,RANGE,,Y,N,graph construction,argmax over k=2..K,N

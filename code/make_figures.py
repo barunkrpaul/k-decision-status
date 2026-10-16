@@ -1,6 +1,6 @@
 """Figures for the review. Usage: python make_figures.py <project_dir>
 Fig 1: family x decision-status counts from data/methods_table.csv
-Fig 2: demonstration results from results/demo_khat.csv"""
+Fig 2: demonstration results from results/demo_khat.csv (13 rules, incl. two AUTO rules)"""
 import sys, os, csv, collections, statistics as st
 import matplotlib
 matplotlib.use('Agg')
@@ -20,7 +20,7 @@ FAM = {}
 for r in rows: FAM[int(r['family'])] = r['family_name']
 fams = [f for f in range(1, 17)] + [0]
 stats_ = ['AUTO', 'AUTO-SET', 'RANGE', 'SUBST', 'NOT-AUTO', 'SUPERVISED', 'N/A', 'UNRESOLVED']
-lab = {'AUTO': 'AUTO', 'AUTO-SET': 'AUTO†', 'RANGE': 'RANGE', 'SUBST': 'SUBST', 'NOT-AUTO': 'NOT-AUTO',
+lab = {'AUTO': 'AUTO', 'AUTO-SET': 'AUTO-SET', 'RANGE': 'RANGE', 'SUBST': 'SUBST', 'NOT-AUTO': 'NOT-AUTO',
        'SUPERVISED': 'SUP', 'N/A': 'n/a', 'UNRESOLVED': 'UNRES'}
 M = collections.Counter((int(r['family']), r['status']) for r in rows)
 cmap = LinearSegmentedColormap.from_list('seq', ['#f4f8fd', '#2a78d6', '#0d3f80'])
@@ -61,11 +61,11 @@ meths = []
 for r in d:
     if r['method'] not in meths: meths.append(r['method'])
 status = {r['method']: r['status'] for r in d}
-col = {'RANGE': '#52514e', 'SUBST-C': '#2a78d6', 'SUBST-D': '#eb6834', 'SUBST-R': '#1baf7a'}
-mk = {'RANGE': 'o', 'SUBST-C': 's', 'SUBST-D': 'D', 'SUBST-R': '^'}
+col = {'RANGE': '#52514e', 'SUBST-C': '#2a78d6', 'SUBST-D': '#eb6834', 'SUBST-R': '#1baf7a', 'AUTO': '#8e44ad'}
+mk = {'RANGE': 'o', 'SUBST-C': 's', 'SUBST-D': 'D', 'SUBST-R': '^', 'AUTO': 'p'}
 V = collections.defaultdict(list)
 for r in d: V[(r['method'], r['condition'])].append(int(r['k_hat']))
-fig, axes = plt.subplots(1, 5, figsize=(7.0, 3.4), sharey=True)
+fig, axes = plt.subplots(1, 5, figsize=(7.0, 3.8), sharey=True)
 ypos = {m: i for i, m in enumerate(meths)}
 for ax, c, t, kt in zip(axes, conds, titles, ktrue):
     ax.set_xscale('symlog', linthresh=1)
@@ -84,7 +84,7 @@ fig.text(0.6, 0.015, 'Estimated number of clusters $\\hat k$ (median and range o
          ha='center', fontsize=7, color=INK2)
 from matplotlib.lines import Line2D
 h = [Line2D([0], [0], marker=mk[s], color=col[s], lw=1.6, ms=4.5, mec='white', label=s) for s in col]
-fig.legend(handles=h, loc='upper center', ncol=4, frameon=False, fontsize=7, bbox_to_anchor=(0.6, 1.0))
+fig.legend(handles=h, loc='upper center', ncol=5, frameon=False, fontsize=7, bbox_to_anchor=(0.6, 1.0))
 fig.tight_layout(rect=(0, 0.04, 1, 0.93))
 fig.savefig(os.path.join(out, 'fig2_demo.pdf')); fig.savefig(os.path.join(out, 'fig2_demo.eps')); fig.savefig(os.path.join(out, 'fig2_demo.png'), dpi=200)
 print('ok')
