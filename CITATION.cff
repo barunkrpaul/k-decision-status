@@ -17,7 +17,7 @@ authors:
 license: MIT
 preferred-citation:
   type: article
-  title: "How Automatic Is \"Automatic\" Clustering? A Critical Review and Decision-Status Taxonomy for Choosing k in K-Means and Related Methods (2016-2026)"
+  title: "How Automatic Is \"Automatic\" Clustering? A Critical Review and Decision-Status Taxonomy for Choosing k in K-Means and Related Methods"
   authors:
     - family-names: Paul
       given-names: Barun Kr.
